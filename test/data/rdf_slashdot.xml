@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+>
+
+<channel rdf:about="https://slashdot.org/">
+<title>Slashdot</title>
+<link>https://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright Slashdot Media. All Rights Reserved.</dc:rights>
+<dc:date>2026-07-05T17:08:14+00:00</dc:date>
+<dc:publisher>Slashdot Media</dc:publisher>
+<dc:creator>feedback@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="https://slashdot.org/story/26/07/05/1422238/short-story-accused-of-being-ai-written-goes-on-to-win-contests-first-prize?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/26/07/05/0526213/godaddy-warns-indias-crackdown-on-fake-site-registrars-could-upend-internet-privacy-everywhere?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/26/07/05/0434229/ev-batteries-defy-expectations-last-hundreds-of-thousands-of-miles?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://entertainment.slashdot.org/story/26/07/04/0756247/hobbit-like-humans-may-have-scavenged-komodo-dragons-leftovers-to-survive?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://hardware.slashdot.org/story/26/07/05/0417243/new-google-ad-imagines-americas-declaration-of-independence-written-with-ai-help?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/26/07/04/1945242/are-wars-blurring-lines-between-corporate-and-national-security?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/26/07/04/208217/new-dna-tech-identifies-soldier-killed-in-americas-revolution-in-1780?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/26/07/04/2031258/842000-american-households-lost-power-today-during-a-heatwave?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/26/07/04/193215/did-microsoft-shift-its-profits-to-low-tax-countries?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/26/07/04/0654252/fsf-shares-update-on-librephone-and-new-automated-site-monitoring-tool?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://slashdot.org/story/26/07/04/0458242/aols-owner-bending-spoons-hits-wall-street-with-17-billion-ipo?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://entertainment.slashdot.org/story/26/07/04/0355237/echostars-us-satellite-pay-tv-provider-dish-dbs-files-for-bankruptcy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://linux.slashdot.org/story/26/07/04/0325244/decades-old-bash-tricks-expose-ai-coding-agents-to-supply-chain-attacks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://science.slashdot.org/story/26/07/04/0232223/what-is-a-quantum-computer-good-for-absolutely-nothing---yet?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://hardware.slashdot.org/story/26/07/03/1657240/startup-targets-datacenters-with-3d-printed-nuclear-reactor-module?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="https://a.fsdn.com/sd/topics/topicslashdot.gif" />
+<textinput rdf:resource="https://slashdot.org/search.pl" />
+</channel>
+<image rdf:about="https://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>https://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>https://slashdot.org/</link>
+</image>
+<item rdf:about="https://slashdot.org/story/26/07/05/1422238/short-story-accused-of-being-ai-written-goes-on-to-win-contests-first-prize?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Short Story Accused of Being AI-written Goes on to Win Contest's First Prize</title>
+<link>https://slashdot.org/story/26/07/05/1422238/short-story-accused-of-being-ai-written-goes-on-to-win-contests-first-prize?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>"A story widely accused on social media of being written using AI has gone on to win the overall Commonwealth short story prize," reports the Guardian. 
+
+In mid-May the story had been selected as a regional winner, but with critics on X and Bluesky "claiming it showed 'obvious markers' of AI use."
+
+In the wake of the controversy, the Commonwealth Foundation conducted a review of the regional winners, which it said involved looking at drafts, time-stamped documents and notes. "We are satisfied with the testimonies of our writers and their confirmation that AI was not used in their writing," said foundation director-general Razmi Farook... Judging chair Louise Doughty described Nazir's piece as "an original, poetic and deeply moving story...." In a film released by the Commonwealth Foundation on Tuesday, Nazir... adds that he wrote six or seven drafts of his prize-winning story, and also speaks about his use of speech-to-text software, explaining that he could only see three or four lines of text on his phone screen at any one time, so he would perfect each line before moving on, which is how his story ended up being "highly polished"... 
+
+Initial social media reactions to the Commonwealth Foundation's announcement of Nazir's win were negative, with one X user writing: "immensely disappointing and disheartening. it feels like they wanted to stick to their guns after the entire GenAI uproar. I might think twice now before submitting my stories here". After Nazir was announced as the regional winner in May, some social media users reported running his story through AI-detection software. "Pangram flags at 100% but also, come on, if you know you know", said Wharton professor Ethan Mollick. However, the reliability of AI-detection software has been called into question. 
+
+In a statement to the Guardian, Farook said that "rather than surrender our judgment to AI-detection software, we asked our winners to show their working drafts, outlines, the evidence of an artistic journey. That software, it must be said, is not infallible: it returns inconsistent verdicts and, in doing so, corrodes the very trust on which a prize depends." 
+"When the machine's default voice is the metropolitan one, the writer who does not fit the expected mould is the first to fall under suspicion," she added. "The more startling her gift, the more her unfamiliar brilliance unsettles, the more readily she is accused of being a machine. A young writer in Kingston or Kolkata, in Kuala Lumpur or Kigali, must now prove not only her talent but her very humanity." 
+
+Nazir's story beat 7,806 other stories, the video points out (adding that their prize "demonstrates that in a world increasingly driven by algorithms, the human voice still matters.") 
+
+The Guardian notes that the winning story "includes multiple 'not x, but y' constructions and lists of three, which some consider to be signs of AI use," and that critics also drew attention to particular lines like "Sun on galvanise is a cruel instrument" and "Marsha lived two bends down." 
+
+
+In a new interview with the Times of India Nazir says "Now I'm frightened about publishing new work because the attacks haven't stopped."
+
+
+Q: Which passages attracted the most criticism, and why do you think they were misunderstood? 
+
+Nazir: People criticised a line where I wrote: 'She had the kind of walking that made benches become men.' That's magical realism. Think Salman Rushdie or Gabriel Garcia Marquez. It's a literary technique. In my story, the character 'Zoongie' believes she is so beautiful that even when no men are around, she imagines the benches becoming men who admire her. It exists only in her imagination. People interpreted it literally. There was another line about light reflecting from a sink. That came directly from my childhood. Our kitchen faced east, and my mother liked to keep everything spotless. We used to polish the sink, and when the morning sun hit it, it glittered brightly. People claimed that the image must have been AI-generated. But it's from my lived experience... 
+
+I've lived with diabetes for 62 years, which has damaged the nerves in my fingers and feet, and I'm currently undergoing chemotherapy. That's why I began using speech-to-text on my Android phone... I hope this episode leads to a better understanding of the difference between assistive technology and AI-generated writing... 
+
+Q: Many acclaimed writers like Ursula K Le Guin, Mary Shelley, and JRR Tolkien have also been falsely flagged by AI detectors. Where does this leave writers? 
+
+Nazir: What these AI detectors are saying is that if a piece of writing is too polished, it must have been written by AI. I refuse to accept that. AI was trained on human writing. Large language models, to me, are tools, much like a word processor. They don't replace the human spirit behind creative writing. Ask an AI to write a prize-winning story on its own and see what it produces. You still need human imagination and judgment to create literature.
+
+ 
+
+Nazir added, "What I don't understand is why people continue to question the judges' decision."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Short+Story+Accused+of+Being+AI-written+Goes+on+to+Win+Contest's+First+Prize%3A+https%3A%2F%2Fslashdot.org%2Fstory%2F26%2F07%2F05%2F1422238%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fslashdot.org%2Fstory%2F26%2F07%2F05%2F1422238%2Fshort-story-accused-of-being-ai-written-goes-on-to-win-contests-first-prize%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://slashdot.org/story/26/07/05/1422238/short-story-accused-of-being-ai-written-goes-on-to-win-contests-first-prize?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24035364&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-05T16:34:00+00:00</dc:date>
+<dc:subject>ai</dc:subject>
+<slash:department>write-on-wrong</slash:department>
+<slash:section>slashdot</slash:section>
+<slash:comments>4</slash:comments>
+<slash:hit_parade>4,3,3,2,0,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/26/07/05/0526213/godaddy-warns-indias-crackdown-on-fake-site-registrars-could-upend-internet-privacy-everywhere?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>GoDaddy Warns India's Crackdown on Fake Site Registrars Could Upend Internet Privacy Everywhere</title>
+<link>https://tech.slashdot.org/story/26/07/05/0526213/godaddy-warns-indias-crackdown-on-fake-site-registrars-could-upend-internet-privacy-everywhere?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>"The internet is filled with fakes," writes Gizmodo. "A court in India is setting out to address the problem by requiring more transparency from domain registrars to make it easier to crack down on fraud. And while the intentions might be good, Reuters is reporting that major American domain registrar GoDaddy is sounding the warning bells that the court's decision could fundamentally reshape the internet well beyond India's borders." 
+
+
+GoDaddy argues the move would even make the internet less safe, reports Reuters :
+
+[Online fraud] is a key challenge for Prime Minister Narendra Modi's government, which last year received 2.4 million complaints of alleged cyber fraud amounting to $2.4 billion. Starting in 2019, lawsuits were brought by dozens of Indian and global firms &amp;mdash; Amazon against fake shopping sites trading on its name and McDonald's complaining against bogus sites offering franchises. [More than 20 companies filed a complaint, the article notes, including Microsoft.] In December, an Indian court blocked more than 1,100 such websites. The New Delhi judge however went further, ordering sweeping new measures that tech experts say have rewritten rules of internet governance: Domain sellers should not offer buyers free privacy protection by default, the buyer's details should be released to anyone with a "legitimate interest" within 72 hours, and website addresses that are variations of protected brand names must be prohibited. 
+
+
+U.S.-based GoDaddy has challenged the directives before a larger bench of judges at the Delhi High Court, according to a Reuters review of non-public filings. It says the ruling will affect legitimate businesses that have names similar to big brands. Stopping privacy-by-default features, GoDaddy said, will result in public disclosure of name, address, telephone and email of legitimate website owners, exposing them to "foreseeable privacy and security risks" such as stalking and harassment. 
+
+As domain names operate globally, not locally, the order could force GoDaddy to regulate website addresses across the world, it said. On the court's order imposing a 72-hour deadline on companies to provide registration details to anyone with "legitimate interest", GoDaddy argues it has no wherewithal to assess who has legitimate interest or not. The "commercially destabilising" directives may force domain name companies to "exit India", said one of GoDaddy's appeal documents that ran into 5,121 pages... GoDaddy rivals, Arizona-based Namecheap and Netherlands-based Hosting Concepts, have also challenged the New Delhi ruling, court records show, although Reuters could not ascertain details of their appeals... 
+
+GoDaddy argues that diluting the privacy feature will run contrary to India's data protection law and the European Union GDPR law which mandates a "privacy by default" approach. Farzaneh Badii, a New York-based researcher on internet governance, criticised the New Delhi ruling, noting that Europe redacted such details because publishing them had been abused by harassment and targeted phishing. "The people exposed will be journalists, activists, small business owners, and private individuals. The brand impersonators will not," she said... 
+
+While the sweeping December directives were issued by a court, they followed government's submissions, documents showed... The judges will hear the appeals on July 16. 
+
+
+
+GoDaddy manages 80 million domains and serves over 20 million users, the article points out, with
+annual revenue over $5 billion.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=GoDaddy+Warns+India's+Crackdown+on+Fake+Site+Registrars+Could+Upend+Internet+Privacy+Everywhere%3A+https%3A%2F%2Ftech.slashdot.org%2Fstory%2F26%2F07%2F05%2F0526213%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F26%2F07%2F05%2F0526213%2Fgodaddy-warns-indias-crackdown-on-fake-site-registrars-could-upend-internet-privacy-everywhere%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/26/07/05/0526213/godaddy-warns-indias-crackdown-on-fake-site-registrars-could-upend-internet-privacy-everywhere?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24035154&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-05T15:34:00+00:00</dc:date>
+<dc:subject>internet</dc:subject>
+<slash:department>whois-domain-lookups</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>9</slash:comments>
+<slash:hit_parade>9,9,9,8,1,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://tech.slashdot.org/story/26/07/05/0434229/ev-batteries-defy-expectations-last-hundreds-of-thousands-of-miles?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>EV Batteries Defy Expectations, Last Hundreds of Thousands of Miles</title>
+<link>https://tech.slashdot.org/story/26/07/05/0434229/ev-batteries-defy-expectations-last-hundreds-of-thousands-of-miles?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>247,000 miles on an EV battery? So says the owner of a U.K.-based used-car sales company that specializes in Evs, who tells the Wall Street Journal EV batteries keep performing well even after several hundred thousand miles. "They are proving themselves to be exceptionally reliable."
+
+After five years on the road, the average EV will still be able to drive up to 95% of its original range, according to Recurrent, a data-science company that provides a battery-monitoring tool for EVs &amp;mdash; better than many in the auto industry expected... 
+
+Potential new car buyers' fear of having to pay for a battery replacement is the number one reason they choose to steer clear of EVs, according to a 2025 survey from industry research firm AutoPacific. When early EVs hit the market, buyers' concerns were well-founded. Roughly one in 12 EVs built from 2011 to 2016 have had to have battery replacements. But new data shows that more modern EVs are doing better so far. Among EVs built from 2022 on, 0.3% have had battery replacements, according to a 2025 study from Recurrent. As battery technology has advanced, EVs have avoided problems like the ones that plagued the original Nissan Leaf when it hit the market in 2010, for example. Those cars lacked the battery-cooling technology that is in newer EVs, and they made headlines for wearing down quickly. Buyer perception hasn't quite caught up, according to Scott Case, co-founder and chief executive of Recurrent... 
+
+The newest battery-powered EVs have lifespans comparable to internal-combustion-engine vehicles, even when driven more miles, according to Viet Nguyen-Tien, a research officer at the London School of Economics who focuses on Evs. Improvements in car batteries' chemical contents, battery-management systems and thermal regulation have been the difference in making batteries last longer and cost less, Nguyen-Tien said. Battery prices have fallen more than 90% since 2010, according to a BloombergNEF report from late last year. Industry analysts say battery-replacement costs are also improving as more EVs are designed for repairability in the long-haul. An out-of-warranty battery replacement can cost anywhere from $5,000 to $16,000, depending on the manufacturer, according to Recurrent. But many EV manufacturers have shifted to allow smaller components of their battery packs to be repaired, which can allow owners to avoid the full costs of a battery replacement, Case said. 
+
+EV batteries aren't without their challenges, though. A battery that is frequently fast-charged with high power loses its range, on average, at twice the rate of a battery charged at a lower power, according to telematics company Geotab. Frequently charging a battery to 100%, or letting it rest at 0% for extended periods, can also reduce range long-term. And EVs regularly deliver less range in extreme cold or heat. 
+The article also includes two new projections on EV adoption:
+
+"The share of new EVs sold is expected to nearly double to 11% of new-car sales in the U.S. by 2030, according to industry consulting firm AlixPartners."
+"Globally, EVs already make up 15% of new-car sales and are expected to form nearly a quarter of the global market by 2030, according to AlixPartners."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=EV+Batteries+Defy+Expectations%2C+Last+Hundreds+of+Thousands+of+Miles%3A+https%3A%2F%2Ftech.slashdot.org%2Fstory%2F26%2F07%2F05%2F0434229%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F26%2F07%2F05%2F0434229%2Fev-batteries-defy-expectations-last-hundreds-of-thousands-of-miles%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/26/07/05/0434229/ev-batteries-defy-expectations-last-hundreds-of-thousands-of-miles?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24035144&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-05T12:34:00+00:00</dc:date>
+<dc:subject>transportation</dc:subject>
+<slash:department>battery-up</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>36</slash:comments>
+<slash:hit_parade>36,36,30,28,3,2,1</slash:hit_parade>
+</item>
+<item rdf:about="https://entertainment.slashdot.org/story/26/07/04/0756247/hobbit-like-humans-may-have-scavenged-komodo-dragons-leftovers-to-survive?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Hobbit-like Humans May Have Scavenged Komodo Dragons' Leftovers to Survive </title>
+<link>https://entertainment.slashdot.org/story/26/07/04/0756247/hobbit-like-humans-may-have-scavenged-komodo-dragons-leftovers-to-survive?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>CNN reports:
+
+
+Prehistoric human relatives, nicknamed "hobbits" due to their short stature, may have been scavengers, rather than skilled hunters capable of taking down big game or building cooking fires, according to new research. The study adds to growing evidence that Homo floresiensis, which had a brain only slightly bigger than that of a chimpanzee, wasn't as advanced as scientists previously believed.... 
+
+The researchers believe that much like how Komodo dragons hunt water buffaloes today, they were using their venomous bite to take down Stegodons &amp;mdash; and after the scene was clear, Homo floresiensis swept in to cleave meat from what remained... The new study reinforces a long-held suspicion that Homo floresiensis is not a dwarfed form of Homo erectus but a descendant of a more primitive Homo habilis-like or Australopithecus-like form that arrived on the island more than1 million years ago, said Dr. Chris Stringer, a research leader specializing in human origins and paleoanthropology at London's Natural History Museum.
+
+&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Hobbit-like+Humans+May+Have+Scavenged+Komodo+Dragons'+Leftovers+to+Survive+%3A+https%3A%2F%2Fentertainment.slashdot.org%2Fstory%2F26%2F07%2F04%2F0756247%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fentertainment.slashdot.org%2Fstory%2F26%2F07%2F04%2F0756247%2Fhobbit-like-humans-may-have-scavenged-komodo-dragons-leftovers-to-survive%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://entertainment.slashdot.org/story/26/07/04/0756247/hobbit-like-humans-may-have-scavenged-komodo-dragons-leftovers-to-survive?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24034568&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-05T08:34:00+00:00</dc:date>
+<dc:subject>lotr</dc:subject>
+<slash:department>here-be-dragons</slash:department>
+<slash:section>entertainment</slash:section>
+<slash:comments>11</slash:comments>
+<slash:hit_parade>11,10,9,9,2,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://hardware.slashdot.org/story/26/07/05/0417243/new-google-ad-imagines-americas-declaration-of-independence-written-with-ai-help?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>New Google Ad Imagines America's 'Declaration of Independence' Written With AI Help</title>
+<link>https://hardware.slashdot.org/story/26/07/05/0417243/new-google-ad-imagines-americas-declaration-of-independence-written-with-ai-help?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>
+An anonymous reader shared this report from TechCrunch:
+
+Two hundred and fifty years after the signing of the Declaration of Independence, a new commercial from Google asks: What if the Founding Fathers had access to Google Workspace? 
+With the tagline "Group project, but make it 1776," the ad depicts a largely unseen Thomas Jefferson mid-draft when he gets a nagging text from Ben Franklin, leading to a very Google-centric collaboration process. Edits are suggested in Google Docs, a meeting gets scheduled in Google Calendar and conducted remotely via Google Meet (with every single attendee apparently turning their camera off?), then the whole thing is finalized with e-signatures; cue the fireworks. 
+
+Of course, since this is an ad from a tech company in the year 2026, AI has a role to play. The fictionalized founders use Google's "help me visualize" AI tool to try out different animals on the national seal, Gemini takes notes on the meeting, and the founders also ask the chatbot for advice before declining King George III's document access request.
+
+
+ 
+
+TechCrunch call it "very tongue-in-cheek," noting that at one point Samuel Adams even asks, "Can we settle this over beers?" And they argue that "the AI evangelism is relatively discreet when compared to many other recent ads."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=New+Google+Ad+Imagines+America's+'Declaration+of+Independence'+Written+With+AI+Help%3A+https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F26%2F07%2F05%2F0417243%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F26%2F07%2F05%2F0417243%2Fnew-google-ad-imagines-americas-declaration-of-independence-written-with-ai-help%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://hardware.slashdot.org/story/26/07/05/0417243/new-google-ad-imagines-americas-declaration-of-independence-written-with-ai-help?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24035138&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-05T04:34:00+00:00</dc:date>
+<dc:subject>power</dc:subject>
+<slash:department>pursuit-of-happiness</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>45</slash:comments>
+<slash:hit_parade>45,45,43,40,8,4,3</slash:hit_parade>
+</item>
+<item rdf:about="https://yro.slashdot.org/story/26/07/04/1945242/are-wars-blurring-lines-between-corporate-and-national-security?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Are Wars Blurring Lines Between Corporate and National Security?</title>
+<link>https://yro.slashdot.org/story/26/07/04/1945242/are-wars-blurring-lines-between-corporate-and-national-security?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Subsea cables. Ukrainian power stations. Russian oil refineries. Even airports, water-desalination plants and Amazon data centers. 
+
+They've all become targets in wartime, notes the Wall Street Journal, and around the world now arguments "are already brewing between companies and governments over new regulations and potential costs."
+
+In Germany, powerful associations representing private companies and municipal utilities have pushed back against new standards for physical protection, warning they could spell financial ruin. New Zealand's government has faced resistance from industry groups over a proposal to fine critical-infrastructure companies and their directors for cybersecurity breaches... A sign of how lines are blurring: The North Atlantic Treaty Organization's 32 countries last year agreed that as part of a pact to spend 5% of economic output on defense and security, 1.5% would go to military-adjacent needs including protecting critical infrastructure and networks. Spending targets range from cybersecurity and industrial capacity to railroads, bridges and ports needed for military logistics... "We need a wide concept of defense &amp;mdash; defense is no longer just military," said Italian Adm. Giuseppe Cavo Dragone, NATO's top military adviser. 
+
+Adding to the complexity, companies now need to protect the data networks that serve as gateways to critical infrastructure. Hackers increasingly target not just computer files to steal information but also systems managing vital functions like building access and factory control, remotely causing physical damage or enabling espionage. U.S. authorities in April warned that Iranian hackers were trying to disrupt American drinking-water systems by targeting computer equipment that connects hardware with software. A year earlier, suspected Russian hackers remotely manipulated valves on a Norwegian hydroelectric dam... 
+
+Another challenge will be parsing jurisdictions and liability for assets that cross international waters or are damaged in combat &amp;mdash; such as subsea data cables or energy pipelines. Turf battles between law enforcement and militaries are already complicating efforts... "The private owner can invest in redundancy, monitoring, and repair capacity, but only governments and militaries can really deter, patrol, attribute, or respond to hostile state activity," said Marc Glasser, who worked on cybersecurity and infrastructure security for three decades at the U.S. Department of Transportation and the Department of Homeland Security.... Companies say they need greater clarity from governments on what protections they will provide and subsidies to help them defend privately owned assets that provide a public good. Most governments don't provide incentives for companies to invest more than the minimum legal resilience requirements. 
+
+The article notes that in May the chief executive of California's Port of Long Beach "launched a cyber-defense operations center to thwart tens of thousands of cyberattacks daily, which jeopardize computer systems and all equipment connected to them." 
+
+The article also points out that the EU adopted new regulations requiring countries to reduce vulnerabilities, and new laws proposed in the U.K. now "seek to increase penalties for subsea sabotage, updating codes that date to when telegraph cables were first laid in the 19th century."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Are+Wars+Blurring+Lines+Between+Corporate+and+National+Security%3F%3A+https%3A%2F%2Fyro.slashdot.org%2Fstory%2F26%2F07%2F04%2F1945242%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F26%2F07%2F04%2F1945242%2Fare-wars-blurring-lines-between-corporate-and-national-security%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/26/07/04/1945242/are-wars-blurring-lines-between-corporate-and-national-security?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24034924&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-05T01:34:00+00:00</dc:date>
+<dc:subject>government</dc:subject>
+<slash:department>e-pluribus-unum</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>36</slash:comments>
+<slash:hit_parade>36,35,25,20,5,3,3</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/26/07/04/208217/new-dna-tech-identifies-soldier-killed-in-americas-revolution-in-1780?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>New DNA Tech Identifies Soldier Killed in America's Revolution in 1780</title>
+<link>https://news.slashdot.org/story/26/07/04/208217/new-dna-tech-identifies-soldier-killed-in-americas-revolution-in-1780?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>South Carolina's pine forests "have spent centuries hiding a secret as old as America itself," reports CBS News:
+
+
+
+In August 1780, British and American soldiers clashed there, leading to a terrible defeat for the Continental army [fighting for the 13 colonies rebelling against England]. Battlefield archaeologists Jim Legg and Steve Smith have been studying the site for decades, but recently, they made a shocking discovery: The sandy soil was home to several sets of remains buried in shallow graves. Metal buttons suggested the men had been Continental soldiers, but there was no other identification... About 2,000 Continental soldiers were killed, wounded or captured, and some men never returned home. 
+
+Their families could only guess at their fates. But Legg and Smith's discovery, paired with an explosion in DNA technology, is changing what's possible. A set of remains, previously known only as 9B, has been identified as John Pumphrey, a young man from Maryland who enlisted in the Continental Army's 7th Maryland Regiment as young as 13... 
+
+
+Pumphrey likely marched more than a thousand miles with the regiment. The unit fought in battles with then-Gen. George Washington in New Jersey and Pennsylvania... The Pumphrey family still exists today. The DNA that helped identify Pumphrey's remains came from three women: Pam Donahue, Karen Pumphrey Etchison, and Nancy Pumphrey White... In late June, members of the extended Pumphrey family came together to hear his story and say his name for the first time in centuries. His remains are interred in South Carolina, where he and the other soldiers were discovered, but the tombstone, once marked "Unknown," will soon have his name carved on it.
+&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=New+DNA+Tech+Identifies+Soldier+Killed+in+America's+Revolution+in+1780%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F26%2F07%2F04%2F208217%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F26%2F07%2F04%2F208217%2Fnew-dna-tech-identifies-soldier-killed-in-americas-revolution-in-1780%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/26/07/04/208217/new-dna-tech-identifies-soldier-killed-in-americas-revolution-in-1780?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24034932&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-04T21:34:00+00:00</dc:date>
+<dc:subject>usa</dc:subject>
+<slash:department>home-of-the-brave</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>10</slash:comments>
+<slash:hit_parade>10,8,6,4,2,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/26/07/04/2031258/842000-american-households-lost-power-today-during-a-heatwave?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>842,000 American Households Lost Power Today During a Heatwave</title>
+<link>https://news.slashdot.org/story/26/07/04/2031258/842000-american-households-lost-power-today-during-a-heatwave?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>As America began celebrating its 250th birthday Saturday, 842,000 homes reported power outages, notes ABC News. Figures from tracking site PowerOutage showed states in America's Northeast and Midwest were impacted by severe weather and extreme heat.
+
+That number, which will fluctuate throughout the day as crews work to restore power, is for households, meaning that the number of people impacted by these outages is likely to be much larger... Millions of Americans, however, will be contending with a heatwave that is blanketing much of the country, including in Philadelphia where the Salute to Independence Semiquincentennial Parade that had been set for Friday was canceled due to the dangerous heat wave, according to Philadelphia ABC station WPVI. Elsewhere, America's Independence Day Parade, which was scheduled for 10:30 a.m. on July 4 in downtown Washington, D.C. was canceled by organizers late Friday evening due to the extreme heat in the District of Columbia... Amtrak announced it will be canceling a number of trains due to heat-related conditions. 
+
+The outages seemed to last throughout the day, with 790,103 household outages still in effect by 4:30 p.m. EST. Ironically, the power outages hit several American states that were among the country's original 13 freedom-declaring colonies, including New Jersey (143,072 outages), Pennsylvania (40,944 outages), and Virginia (27,392 outages). 
+
+CNBC adds that America's largest power grid operator said Friday "it was under a federal alert to cut electricity consumption across its territory as it battled generator outages, massive overloading on its transmission lines and a surge in air conditioning use from prolonged sweltering heat."
+
+
+PJM said it told utilities to reduce electricity to customers who are under contract to reduce consumption during emergencies. PJM serves 67 million people in the Mid-Atlantic, South and Washington, D.C., area. Spot wholesale electricity prices in northern Virginia, home to the largest collection of data centers in the world, have surged beyond $2,000 per megawatt hour this week. That compares to about $40 per MWh when PJM is not in distress.
+&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=842%2C000+American+Households+Lost+Power+Today+During+a+Heatwave%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F26%2F07%2F04%2F2031258%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F26%2F07%2F04%2F2031258%2F842000-american-households-lost-power-today-during-a-heatwave%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/26/07/04/2031258/842000-american-households-lost-power-today-during-a-heatwave?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24034938&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-04T20:34:00+00:00</dc:date>
+<dc:subject>earth</dc:subject>
+<slash:department>weather-or-not</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>147</slash:comments>
+<slash:hit_parade>147,139,109,98,35,18,6</slash:hit_parade>
+</item>
+<item rdf:about="https://yro.slashdot.org/story/26/07/04/193215/did-microsoft-shift-its-profits-to-low-tax-countries?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Did Microsoft Shift Its Profits to Low-Tax Countries?</title>
+<link>https://yro.slashdot.org/story/26/07/04/193215/did-microsoft-shift-its-profits-to-low-tax-countries?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Microsoft is apparently shifting its profits to countries with low taxes &amp;mdash; and out of countries where they have many more employees and significant sales. Back in 2005 Former Microsoft CEO Steve Ballmer even said that a low corporate tax rate "is part of the overall advantage of doing business in Ireland," remembers long-time Slashdot reader theodp. (Ballmer added "It would be disingenuous to say otherwise.") 
+
+
+But in 2026 the EU now requires a country-by-country compliance report, and the New York Times notes that Microsoft "was most likely the first major U.S. technology company to make a so-called country by country report of its finances to comply..."
+
+ Like other big companies, Microsoft uses transactions between subsidiaries to shift profits around to reduce its tax bill. The report revealed a consistent pattern: high returns in low-tax jurisdictions and slim margins in higher-tax ones. The report showed the sometimes absurd results. Microsoft said it had generated almost 40 percent of its pretax income in tax-friendly Ireland, where it employed about 3 percent of its global work force. In higher-tax Germany, the largest economy in Europe, Microsoft earned barely half of 1 percent of its global profits, it said. 
+
+Excluding Ireland, the company said, it generated less than 2 percent of its worldwide pretax earnings in Europe... [In Luxembourg Microsoft said it had $283 million in pretax income with only 34 employees.] 
+
+
+[America's] Internal Revenue Service is challenging profit-shifting transactions used by Microsoft, and is seeking back taxes of nearly $29 billion4. The company has said it disagrees with the I.R.S. and said in a securities filing that it "will vigorously contest" the proposed tax bills.
+
+ 
+
+This week a Microsoft blog post offered their own "context," arguing that tax is "one important measure of contribution, but it is not the only one. 
+
+"Our investments, partnerships, infrastructure, and long-term presence in countries around the world also reflect a commitment to helping strengthen the economies and communities where we operate, today and for the future."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Did+Microsoft+Shift+Its+Profits+to+Low-Tax+Countries%3F%3A+https%3A%2F%2Fyro.slashdot.org%2Fstory%2F26%2F07%2F04%2F193215%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F26%2F07%2F04%2F193215%2Fdid-microsoft-shift-its-profits-to-low-tax-countries%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/26/07/04/193215/did-microsoft-shift-its-profits-to-low-tax-countries?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24034900&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-04T19:34:00+00:00</dc:date>
+<dc:subject>microsoft</dc:subject>
+<slash:department>representation-without-taxation</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>58</slash:comments>
+<slash:hit_parade>58,57,46,42,14,8,3</slash:hit_parade>
+</item>
+<item rdf:about="https://news.slashdot.org/story/26/07/04/0654252/fsf-shares-update-on-librephone-and-new-automated-site-monitoring-tool?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>FSF Shares Update on 'LibrePhone' and New Automated Site Monitoring Tool</title>
+<link>https://news.slashdot.org/story/26/07/04/0654252/fsf-shares-update-on-librephone-and-new-automated-site-monitoring-tool?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>At the end of 2025, the FSF launched LibrePhone project, which is working to "better understand and reverse-engineer the nonfree blobs used by a great majority of (if not all) system on a chip designs available today." The FSF's summer newsletter shares this update:
+
+
+We started with researching the proprietary files in Android phones supported by the Lineage project, an Android-based volunteer-led mobile phone operating system with much free software already in it. Our current, primary focus is on the radio blobs that control WiFi, Bluetooth, NFC, and cellular communications. 
+
+The software freedom issues with mobile computing have been around for a long time, with the most challenging issue being the baseband/modem firmware that relies heavily on proprietary software. This creates a technical and legal maze that is nearly impossible to break free from, but that doesn't mean we should ever stop working to create free systems. It certainly doesn't mean we shouldn't liberate the software that we know can be free software. Now, half a year into this project, lead developer Rob Savoye has extracted firmware from over 200 Lineage install packages, processed 85GB of files, and imported the results of these analyses into a PostgreSQL database for cross-device comparison... [M]uch of the software and blobs we need to work through are shared across multiple devices; this means even greater strides for mobile phone freedom... 
+
+As insurmountable as it may seem at times, every blob we manage to free up will be progress. The FSF has proven time and time again that it can bring the free software philosophy to life, not just by advocating for it, but by making it so.
+
+ 
+
+The bulletin also describes how waves of botnets from "aggressive LLM scrapers, vulnerability scanners, poorly optimized CI/CD servers" inspired the FSF to create a new free-as-in-freedom automated monitoring tool:
+
+
+
+In our efforts to combat the botnets, we optimized several detection rules to ban abusive behavior. We found the upper limit of fail2ban and replaced it with reaction, an efficient alternative with our configuration that uses ipset. We also split several monolithic machines into many separate machines so that when a web service is overwhelmed the other functions of the service do not go down with it... We found quite a few ways to respond to and prevent botnet attacks, but still faced a significant related challenge: communicating when a website or service is down... 
+
+Uptime Kuma is a human-readable, automated monitoring addition to our systems... You can check out our recently-launched self-hosted Uptime Kuma instance at https://status.fsf.org/. When you see the page, you will also likely say, "Wow! The FSF and GNU sure do run a ton of services!" and you would be right... If you maintain websites and services, and are looking for a simple way to communicate publicly with your users, consider using Uptime Kuma or another free software solution instead of choosing a proprietary monitoring solution."
+ 
+
+There's also an article on the state of free-as-in-freedom videogame console emulators.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=FSF+Shares+Update+on+'LibrePhone'+and+New+Automated+Site+Monitoring+Tool%3A+https%3A%2F%2Fnews.slashdot.org%2Fstory%2F26%2F07%2F04%2F0654252%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F26%2F07%2F04%2F0654252%2Ffsf-shares-update-on-librephone-and-new-automated-site-monitoring-tool%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/26/07/04/0654252/fsf-shares-update-on-librephone-and-new-automated-site-monitoring-tool?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24034550&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-04T18:34:00+00:00</dc:date>
+<dc:subject>gnu</dc:subject>
+<slash:department>sharing-the-software</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>18</slash:comments>
+<slash:hit_parade>18,18,17,14,2,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://slashdot.org/story/26/07/04/0458242/aols-owner-bending-spoons-hits-wall-street-with-17-billion-ipo?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>AOL's Owner Bending Spoons Hits Wall Street with $1.7 billion IPO</title>
+<link>https://slashdot.org/story/26/07/04/0458242/aols-owner-bending-spoons-hits-wall-street-with-17-billion-ipo?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>"The owner of AOL and other tech businesses hit Wall Street with a $1.7 billion initial public offering Wednesday," reports the Associated Press:
+
+
+The company is getting $1 billion in proceeds, while the rest is going to shareholders. The stock surged 39.7% in its first day of trading under the symbol "BSP" on the Nasdaq, giving it a market value of $25.2 billion. 
+
+
+Among the company's well-known holdings are the event creation and ticketing company Eventbrite, and the video hosting service Vimeo... AOL itself went public in 1992 and was a vanguard of technology and communication. It reached a market value of $164 billion in 2000 shortly before merging with Time Warner. It then crashed along with the rest of the industry following the bursting of the dot-com bubble. It has been bought and sold several times over the last two decades... 
+
+[Italy-based Bending Spoons] was founded by three friends in 2013 following the failure of their first attempt at building a technology startup. It has since grown by buying more than 50 companies. The acquired companies are reorganized, and AI technology is often a key tool in the redesign. The focus remains on subscription-based revenue from the portfolio of businesses. The company said it had net income of $27.5 million on revenue of $601 million during the first three months of 2026. It had more than 500 million monthly active users and 9 million monthly paying customers as of March. The company has debt of just under $4.4 billion. It plans to use proceeds from the offering to invest in new acquisitions.
+
+
+ 
+
+The article notes that in the company's prospectus, it says they chose the name Bending Spoons because "We were about to attempt to create a world-class company with $40,000, a team of five, and a track record that read 0 for 1. A touch of irony seemed appropriate."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=AOL's+Owner+Bending+Spoons+Hits+Wall+Street+with+%241.7+billion+IPO%3A+https%3A%2F%2Fslashdot.org%2Fstory%2F26%2F07%2F04%2F0458242%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fslashdot.org%2Fstory%2F26%2F07%2F04%2F0458242%2Faols-owner-bending-spoons-hits-wall-street-with-17-billion-ipo%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://slashdot.org/story/26/07/04/0458242/aols-owner-bending-spoons-hits-wall-street-with-17-billion-ipo?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24034506&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-04T17:34:00+00:00</dc:date>
+<dc:subject>business</dc:subject>
+<slash:department>you've-got-IPO</slash:department>
+<slash:section>slashdot</slash:section>
+<slash:comments>22</slash:comments>
+<slash:hit_parade>22,22,18,17,5,3,2</slash:hit_parade>
+</item>
+<item rdf:about="https://entertainment.slashdot.org/story/26/07/04/0355237/echostars-us-satellite-pay-tv-provider-dish-dbs-files-for-bankruptcy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>EchoStar's US Satellite Pay-TV Provider Dish DBS Files for Bankruptcy</title>
+<link>https://entertainment.slashdot.org/story/26/07/04/0355237/echostars-us-satellite-pay-tv-provider-dish-dbs-files-for-bankruptcy?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>EchoStar's satellite pay-TV unit Dish DBS has filed for Chapter 11 bankruptcy
+ protection, reports Reuters. The move also applies to its wireless subsidiaries, according to the article, and "facilitates the wind-down of Dish Wireless's 5G network operations following an unexpected delay in a spectrum license sale to AT&amp;amp;T... under which EchoStar agreed to sell about 50 megahertz of its nationwide spectrum for $23 billion." 
+
+
+Some context from Deadline.com:
+
+Charlie Ergen, who co-founded EchoStar and Dish, recently returned as chairman and CEO to steer the company through its recent challenges...
+Even prior to the merger, Ergen had been working to pivot from the pay-TV business, where Dish now has just 5 million subscribers and streaming sibling Sling TV has another 2 million, toward wireless telecom. With wireless spectrum hitting the market due to the Sprint-T-Mobile merger and then Elon Musk's Starlink looking to ramp up in the sector, it seemed more attractive than the cord-cutting-ravaged pay-TV business. But it is still entails plenty of risk, especially given how tightly regulated the spectrum is due to security concerns.
+
+
+ 
+
+
+Thanks to long-time Slashdot reader schwit1 for sharing the news.
+&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=EchoStar's+US+Satellite+Pay-TV+Provider+Dish+DBS+Files+for+Bankruptcy%3A+https%3A%2F%2Fentertainment.slashdot.org%2Fstory%2F26%2F07%2F04%2F0355237%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fentertainment.slashdot.org%2Fstory%2F26%2F07%2F04%2F0355237%2Fechostars-us-satellite-pay-tv-provider-dish-dbs-files-for-bankruptcy%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://entertainment.slashdot.org/story/26/07/04/0355237/echostars-us-satellite-pay-tv-provider-dish-dbs-files-for-bankruptcy?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24034480&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-04T16:34:00+00:00</dc:date>
+<dc:subject>tv</dc:subject>
+<slash:department>breaking-a-Dish</slash:department>
+<slash:section>entertainment</slash:section>
+<slash:comments>18</slash:comments>
+<slash:hit_parade>18,18,14,12,1,0,0</slash:hit_parade>
+</item>
+<item rdf:about="https://linux.slashdot.org/story/26/07/04/0325244/decades-old-bash-tricks-expose-ai-coding-agents-to-supply-chain-attacks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Decades-Old Bash Tricks Expose AI Coding Agents To Supply Chain Attacks</title>
+<link>https://linux.slashdot.org/story/26/07/04/0325244/decades-old-bash-tricks-expose-ai-coding-agents-to-supply-chain-attacks?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Slashdot reader wiredmikey writes: AI security researchers have uncovered a structural security flaw dubbed GuardFall that allows decades-old Bash shell tricks to bypass safeguards in most open source AI coding agents. By exploiting shell behaviors such as quote removal and variable expansion, attackers can hide malicious commands in repositories, README files, Makefiles, or other content consumed by AI agents. If executed &amp;mdash; particularly in auto-approve or CI environments&amp;mdash;the commands can steal credentials, compromise developer systems, or enable software supply chain attacks. According to researchers at Adversa AI, the 11 popular open source AI coding agents tested, only one successfully blocked all of the Bash trick techniques.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Decades-Old+Bash+Tricks+Expose+AI+Coding+Agents+To+Supply+Chain+Attacks%3A+https%3A%2F%2Flinux.slashdot.org%2Fstory%2F26%2F07%2F04%2F0325244%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Flinux.slashdot.org%2Fstory%2F26%2F07%2F04%2F0325244%2Fdecades-old-bash-tricks-expose-ai-coding-agents-to-supply-chain-attacks%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://linux.slashdot.org/story/26/07/04/0325244/decades-old-bash-tricks-expose-ai-coding-agents-to-supply-chain-attacks?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24034468&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-04T15:34:00+00:00</dc:date>
+<dc:subject>ai</dc:subject>
+<slash:department>big-Bash-theory</slash:department>
+<slash:section>linux</slash:section>
+<slash:comments>25</slash:comments>
+<slash:hit_parade>25,25,23,22,7,3,2</slash:hit_parade>
+</item>
+<item rdf:about="https://science.slashdot.org/story/26/07/04/0232223/what-is-a-quantum-computer-good-for-absolutely-nothing---yet?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>What Is a Quantum Computer Good For? Absolutely Nothing - Yet</title>
+<link>https://science.slashdot.org/story/26/07/04/0232223/what-is-a-quantum-computer-good-for-absolutely-nothing---yet?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>The Verge argues that researchers "have made genuine progress in quantum computing &amp;mdash; it's just been largely incremental and too esoteric to immediately capture the public's imagination." 
+
+And there are predictions that quantum computers will finally do something useful as soon as 2028:
+
+
+The drama can overshadow the real progress in quantum computing...
+Researchers have improved the qubits themselves, so they hold onto information longer. When they hold onto information longer, you can fit in more operations and do more complicated algorithms. Last November, Andrew Houck of Princeton University and his colleagues reported that they'd made a superconducting qubit that can hold onto information three times longer than the previous record holder... And in the last two years, researchers have made substantial strides in what's known as quantum error correction... In addition, researchers have developed algorithms to correct errors while the quantum computer operates... Microsoft claimed, which experts dispute, that it made an object made of electrons known as a Majorana particle [which should make fewer errors and be easier to scale up]... 
+
+
+"We 100 percent stand behind our results. We stand by our roadmap," Microsoft's quantum lead, Chetan Nayak, responded in an interview with The Verge. In an email statement, he added that Microsoft's "papers do show that we are creating and controlling Majorana [particles]... Microsoft's supporting evidence is unconvincing [according to [Henry Legg, a physicist from the University of St. Andrews and a longtime Microsoft critic]Rnqyq. What it claimed as evidence of a Majorana particle, he says, could actually be due to quantum dots forming in its device. Quantum dots are electron-containing objects that are not useful for Microsoft's quantum computer. It also bases its claim on data from a single device, says Legg. He wants to see Microsoft replicate the results in multiple chips. "If you repeatedly try and find Jesus in your toast, eventually you'll find Jesus in your toast," he says. "But that one piece of toast doesn't mean you had some kind of epiphany." 
+
+
+"While we appreciate the religious fervor, our data maintains the strength and consistency of our roadmap, as we have for the past several years across previous milestones. We look forward to delivering the world's first quantum machine and sharing the energy of our achievements with the world," wrote Nayak in response. 
+
+Past spurious work from Microsoft-affiliated researchers adds to the doubt. In 2021, the journal Nature retracted an article from Microsoft-affiliated researchers in which they'd claimed strong experimental evidence that they'd created a Majorana particle.
+
+ 
+
+"Even hopeful experts have varying opinions about when a quantum computer will demonstrate something useful," the article acknowledges. 
+
+
+But quantum computing lecturer Eleanor Crane of King's College London predicts
+researchers will have demonstrated a useful scientific simulation on a quantum computer by 2028. 
+
+
+Thanks to Slashdot reader joshuark for sharing the article.
+&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=What+Is+a+Quantum+Computer+Good+For%3F+Absolutely+Nothing+-+Yet%3A+https%3A%2F%2Fscience.slashdot.org%2Fstory%2F26%2F07%2F04%2F0232223%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F26%2F07%2F04%2F0232223%2Fwhat-is-a-quantum-computer-good-for-absolutely-nothing---yet%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/26/07/04/0232223/what-is-a-quantum-computer-good-for-absolutely-nothing---yet?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24034446&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>EditorDavid</dc:creator>
+<dc:date>2026-07-04T14:34:00+00:00</dc:date>
+<dc:subject>science</dc:subject>
+<slash:department>quantum-leaps</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>51</slash:comments>
+<slash:hit_parade>51,50,41,36,5,1,0</slash:hit_parade>
+</item>
+<item rdf:about="https://hardware.slashdot.org/story/26/07/03/1657240/startup-targets-datacenters-with-3d-printed-nuclear-reactor-module?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Startup Targets Datacenters With 3D-Printed Nuclear Reactor Module</title>
+<link>https://hardware.slashdot.org/story/26/07/03/1657240/startup-targets-datacenters-with-3d-printed-nuclear-reactor-module?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</link>
+<description>Startup Ampera has unveiled what it calls the first 3D-printed nuclear reactor module, built around a silicon-carbide core and pressure vessel designed for a thorium-based microreactor. The company says future systems could deliver 15 or 30 megawatts for up to 30 years without refueling. When The Register asked about availability, their spokesperson said: "We expect the power generation portion of the system to be available as early as 2027, with the nuclear module being available to customers about 2030 based on regulatory approval." From the report: Founder and CEO Brian Matthews revealed the prototype microreactor, which features a fully 3D-printed silicon carbide reactor core and pressure vessel. "This next-generation nuclear core and pressure vessel sets the foundation for factory-built, mass-produced nuclear energy," Matthews said. "The advanced technology and additive manufacturing used demonstrate a clear commercial path for new nuclear technology coming to market in an accelerated manner." His company is developing a subcritical, solid-state, factory-built thorium-based nuclear reactor. Subcritical means the fuel cannot sustain a nuclear chain reaction on its own, which prevents a runaway power excursion.
+ 
+Ampera uses "solid-state" to describe a design with solid rather than liquid fuel. The proposed fuel uses tristructural isotropic, or TRISO, particles, consisting of a fuel kernel containing thorium, surrounded by multiple ceramic and carbon layers. [...] "Thorium is the future for ultra-safe, clean power production," Matthews said at the time. "By producing TRISO thorium kernels in the United States, we can ensure ample access to the needed fuel supply as we scale up and also minimize price volatility risk."
+ 
+Ampera also describes the heart of the reactor as as a spherical monolithic gyroid core. A gyroid, as far as we can fathom, is a complex shape that provides a massive surface area relative to its volume, making it well-suited for heat transfer. Its complexity makes it difficult to produce using conventional manufacturing methods, which is where additive manufacturing comes in. The core is 3D-printed using silicon carbide and designed to operate for up to 30 years without refueling, the firm claims. Ampera says its planned systems will provide 15 or 30 MWe, depending on the configuration, enough to supply a typical datacenter. Larger configurations are planned. Matthews said that his company expects to be the first to industrialize factory-built nuclear power with near-term deployment timelines.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Startup+Targets+Datacenters+With+3D-Printed+Nuclear+Reactor+Module%3A+https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F26%2F07%2F03%2F1657240%2F%3Futm_source%3Dtwitter%26utm_medium%3Dtwitter"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F26%2F07%2F03%2F1657240%2Fstartup-targets-datacenters-with-3d-printed-nuclear-reactor-module%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://hardware.slashdot.org/story/26/07/03/1657240/startup-targets-datacenters-with-3d-printed-nuclear-reactor-module?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=24034162&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2026-07-04T11:00:00+00:00</dc:date>
+<dc:subject>power</dc:subject>
+<slash:department>first-of-its-kind</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>32</slash:comments>
+<slash:hit_parade>32,30,26,20,4,1,1</slash:hit_parade>
+</item>
+<textinput rdf:about="https://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>https://slashdot.org/search.pl</link>
+</textinput>
+</rdf:RDF>

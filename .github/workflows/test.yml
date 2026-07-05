@@ -1,0 +1,41 @@
+name: test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Install Mojo nightly
+        run: |
+          uv venv
+          uv pip install mojo \
+            --index https://whl.modular.com/nightly/simple/ \
+            --prerelease allow
+          .venv/bin/mojo --version
+
+      - name: Unit tests — XML tokenizer
+        run: .venv/bin/mojo run -I src test/test_xml_parser.mojo
+
+      - name: Unit tests — feed mapping + JSON Feed
+        run: .venv/bin/mojo run -I src test/test_feed.mojo
+
+      - name: Unit tests — date parsing
+        run: .venv/bin/mojo run -I src test/test_date.mojo
+
+      - name: Integration tests — real feed snapshots
+        run: .venv/bin/mojo run -I src test/test_real_feed.mojo
+
+      - name: Benchmark (informational)
+        run: |
+          .venv/bin/mojo build -I src bench/bench_parse.mojo -o bench_parse
+          ./bench_parse

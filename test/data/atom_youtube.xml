@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UC_x5XG1OV2P6uZZ5FSM9Ttw"/>
+ <id>yt:channel:_x5XG1OV2P6uZZ5FSM9Ttw</id>
+ <yt:channelId>_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+ <title>Google for Developers</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw"/>
+ <author>
+  <name>Google for Developers</name>
+  <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+ </author>
+ <published>2007-08-23T00:34:43+00:00</published>
+ <entry>
+  <id>yt:video:rRIMd4oAxig</id>
+  <yt:videoId>rRIMd4oAxig</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>Ok, I guess the rain is asking us real questions now.</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/rRIMd4oAxig"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-07-02T04:00:05+00:00</published>
+  <updated>2026-07-02T18:52:59+00:00</updated>
+  <media:group>
+   <media:title>Ok, I guess the rain is asking us real questions now.</media:title>
+   <media:content url="https://www.youtube.com/v/rRIMd4oAxig?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rRIMd4oAxig/hqdefault.jpg" width="480" height="360"/>
+   <media:description>No, but really. Did you review the generated tests? 
+
+Subscribe to Google for Developers → https://goo.gle/developers</media:description>
+   <media:community>
+    <media:starRating count="99" average="5.00" min="1" max="5"/>
+    <media:statistics views="5453"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:DjbUslfRLQw</id>
+  <yt:videoId>DjbUslfRLQw</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>Describe what you do in 3 emojis</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/DjbUslfRLQw"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-07-01T04:00:00+00:00</published>
+  <updated>2026-07-05T02:33:22+00:00</updated>
+  <media:group>
+   <media:title>Describe what you do in 3 emojis</media:title>
+   <media:content url="https://www.youtube.com/v/DjbUslfRLQw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/DjbUslfRLQw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What three emojis would you use? Make sure to comment them! 
+
+Subscribe to Google for Developers → https://goo.gle/developers</media:description>
+   <media:community>
+    <media:starRating count="170" average="5.00" min="1" max="5"/>
+    <media:statistics views="5841"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:YvVsdZL2ogY</id>
+  <yt:videoId>YvVsdZL2ogY</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>Sameer Samat on Android 17 and the Future of Intelligent Computing</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=YvVsdZL2ogY"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-30T19:00:24+00:00</published>
+  <updated>2026-07-01T07:20:43+00:00</updated>
+  <media:group>
+   <media:title>Sameer Samat on Android 17 and the Future of Intelligent Computing</media:title>
+   <media:content url="https://www.youtube.com/v/YvVsdZL2ogY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/YvVsdZL2ogY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Sameer Samat, President of Android at Google, joins host Logan Kilpatrick to discuss Android 17 and what it means to shift from operating systems to intelligence systems. Their conversation covers why Android didn't say the word AI once at the Android Show, the new Gemini Intelligence feature suite including Rambler, app automation, Superfill, and generative widgets, and what it looks like when Gemini can see the road with you in a live demo inside a Volvo EX60.
+
+Subscribe to Google for Developers → https://goo.gle/developers  
+
+Speaker: Logan Kilpatrick, Sameer Samat 
+Products Mentioned:  Google AI, Gemini</media:description>
+   <media:community>
+    <media:starRating count="145" average="5.00" min="1" max="5"/>
+    <media:statistics views="4425"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:HcwMTu1xQDw</id>
+  <yt:videoId>HcwMTu1xQDw</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>Gemma 4 in Action: Bringing Frontier AI to the Edge</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=HcwMTu1xQDw"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-29T19:00:34+00:00</published>
+  <updated>2026-06-30T17:50:22+00:00</updated>
+  <media:group>
+   <media:title>Gemma 4 in Action: Bringing Frontier AI to the Edge</media:title>
+   <media:content url="https://www.youtube.com/v/HcwMTu1xQDw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/HcwMTu1xQDw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What happens when frontier-level AI no longer requires an internet connection?  
+
+Gemma 4 is empowering developers and communities across the globe by bringing advanced intelligence directly to local devices. By maximizing &quot;intelligence per byte,&quot; Gemma 4 breaks down connectivity barriers, allowing powerful, multi-modal, and agentic AI to run efficiently anywhere, on anything. 
+
+ In this video, explore how creators and organizations are using Gemma 4 to solve real-world problems today:  
+
+Empowering Local Healthcare: Organizations like Crane AI Labs in Uganda are building impactful, offline systems to help reduce maternal mortality rates in low-connectivity areas. 
+ 
+Preserving Culture and Language: Discover how developers are easily fine-tuning Gemma 4 for indigenous languages like Quechua, providing new digital resources for underrepresented communities.  
+
+Democratizing Technology: Hear from Google DeepMind engineers and global partners like Typhoon AI on why open-source AI is critical for global freedom and technological access.  Learn how the open Gemma 4 ecosystem can help you build systems for your own community.
+
+
+Resources: 
+Learn more→  https://goo.gle/3RdSm8O 
+
+Subscribe to Google for Developers → https://goo.gle/developers  
+
+
+Products Mentioned:  Google AI, Gemini, Gemma</media:description>
+   <media:community>
+    <media:starRating count="3734" average="5.00" min="1" max="5"/>
+    <media:statistics views="88014"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:wq8X9YrmooU</id>
+  <yt:videoId>wq8X9YrmooU</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>What’s happening in this Kotlin code?</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/wq8X9YrmooU"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-29T13:00:08+00:00</published>
+  <updated>2026-06-30T15:55:23+00:00</updated>
+  <media:group>
+   <media:title>What’s happening in this Kotlin code?</media:title>
+   <media:content url="https://www.youtube.com/v/wq8X9YrmooU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wq8X9YrmooU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A small Kotlin challenge from a real permissions bug: each user has a set of roles. A teammate adds a role to one user, and a completely different user ends up with that role too. What happened? Watch the clip and share what you think below.
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speakers: Anaya Mehta</media:description>
+   <media:community>
+    <media:starRating count="153" average="5.00" min="1" max="5"/>
+    <media:statistics views="8911"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:cL7uFe5RqHY</id>
+  <yt:videoId>cL7uFe5RqHY</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>AI tools for human creativity</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=cL7uFe5RqHY"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-26T23:00:25+00:00</published>
+  <updated>2026-07-01T04:11:48+00:00</updated>
+  <media:group>
+   <media:title>AI tools for human creativity</media:title>
+   <media:content url="https://www.youtube.com/v/cL7uFe5RqHY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/cL7uFe5RqHY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>An inside look at Google's latest creative tools from the people using them to make film, art, games, music and more. See how musicians, designers, coders, and filmmakers at Google Creative Lab and Labs are using Google Flow, Antigravity, Genie and Google Flow Music in their creative processes. 
+
+Speakers: Matthew Carey ,Alex Chen, Sanchit Sawaria, Khyati Trehan, Kaloyan Kolev Shashwath Santosh, Samuel Lawton, Henry Ives, Kendall Rankin</media:description>
+   <media:community>
+    <media:starRating count="455" average="5.00" min="1" max="5"/>
+    <media:statistics views="11337"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KPx3nRwbldE</id>
+  <yt:videoId>KPx3nRwbldE</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>Run Gemma on Reachy Mini, an open source robot</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KPx3nRwbldE"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-26T19:00:02+00:00</published>
+  <updated>2026-06-30T06:59:12+00:00</updated>
+  <media:group>
+   <media:title>Run Gemma on Reachy Mini, an open source robot</media:title>
+   <media:content url="https://www.youtube.com/v/KPx3nRwbldE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KPx3nRwbldE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Ian Ballantyne, Developer Relations Engineer at Google DeepMind, shows how Gemma runs on hardware like Raspberry Pi, Jetson, and Nano, letting a model see, hear, and act the way a robot would. The demo is Reachy Mini, the open source robot from Hugging Face and Pollen Robotics, a small robot that sees with cameras, reacts with emotion and head movement, and holds a conversation through its microphone and speaker.
+
+What's covered: A live conversation with Reachy Mini about why local on-device models matter for privacy and speed, the robot's ability to move its head, show emotion, and take pictures to understand its surroundings, controlling smart devices and APIs like lights, thermostats, calendars, and live data, and an early look at the robot reasoning about a chessboard and explaining how a knight moves.
+Explore the Reachy Mini project from Hugging Face and Pollen Robotics, and try running Gemma on your own hardware.
+
+What would you build with Gemma on a robot or IoT device? Drop it in the comments.
+
+Resources: 
+Reachy Mini → https://goo.gle/4xJNpVJ 
+Local Reachy Mini → https://goo.gle/4f1dOXC 
+Gemma Docs → https://goo.gle/4xMnVXS 
+Gemma Cookbook → https://goo.gle/4epYEuZ 
+
+
+Subscribe to Google for Developers → https://goo.gle/developers  
+
+Speaker: Ian Ballantyne
+Products Mentioned:  Google AI, Gemini</media:description>
+   <media:community>
+    <media:starRating count="847" average="5.00" min="1" max="5"/>
+    <media:statistics views="29581"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:UlbokBsjMRY</id>
+  <yt:videoId>UlbokBsjMRY</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>Gemini 3.5 Live Translate, Gemini in Xcode, and more! - Google Developer News June 2026</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=UlbokBsjMRY"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-25T16:00:16+00:00</published>
+  <updated>2026-06-30T17:53:28+00:00</updated>
+  <media:group>
+   <media:title>Gemini 3.5 Live Translate, Gemini in Xcode, and more! - Google Developer News June 2026</media:title>
+   <media:content url="https://www.youtube.com/v/UlbokBsjMRY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/UlbokBsjMRY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Welcome back to Developer News! Host Anaya Mehta breaks down the latest major Google developer announcements from Google I/O, including near real-time translation Gemini 3.5 Live Translate, local agentic workflows with Gemma 4 12b, and Gemini in Xcode, where we bring Gemini directly to Apple platform developers. See how these tools can uplevel your developer workflows! 
+
+Chapters: 
+0:00 - Introduction
+0:25 - Gemini 3.5 Live Translate
+0:54 - Live Translate demonstration
+2:09 - Gemma 4 12B on AI Edge
+3:23 - Gemini in Xcode
+4:01 - Conclusion
+
+Resources: 
+Introducing Gemini 3.5 Live Translate Video → https://goo.gle/4oFhX6W 
+Gemini 3.5 Live Translate blog → https://goo.gle/4ogWS2D 
+Gemma 4 12b Announcement Blog → https://goo.gle/3QElqWJ 
+Gemini in Xcode Blog → https://goo.gle/44nPLMt 
+
+Watch more Google Developer News → https://goo.gle/4e8Rysd  
+Subscribe to Google for Developers → https://goo.gle/developers  
+
+#GoogleDeveloperNews 
+
+Speaker: Anaya Mehta
+Products Mentioned:  Google AI, Gemini, Gemma</media:description>
+   <media:community>
+    <media:starRating count="275" average="5.00" min="1" max="5"/>
+    <media:statistics views="6774"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:rU1za1SJSgE</id>
+  <yt:videoId>rU1za1SJSgE</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>Stop writing longer prompts. Do this instead! 🧠</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/rU1za1SJSgE"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-24T16:00:13+00:00</published>
+  <updated>2026-06-26T15:10:37+00:00</updated>
+  <media:group>
+   <media:title>Stop writing longer prompts. Do this instead! 🧠</media:title>
+   <media:content url="https://www.youtube.com/v/rU1za1SJSgE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/rU1za1SJSgE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>While prompting is great for runtime steering, fine-tuning teaches repeatable patterns—delivering the exact JSON shapes you need! 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speaker: Christy Yao</media:description>
+   <media:community>
+    <media:starRating count="582" average="5.00" min="1" max="5"/>
+    <media:statistics views="18461"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bfvS1UeAkN0</id>
+  <yt:videoId>bfvS1UeAkN0</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>Gemma Playground: Parallel Agents in Action</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bfvS1UeAkN0"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-22T23:00:03+00:00</published>
+  <updated>2026-06-23T23:30:43+00:00</updated>
+  <media:group>
+   <media:title>Gemma Playground: Parallel Agents in Action</media:title>
+   <media:content url="https://www.youtube.com/v/bfvS1UeAkN0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bfvS1UeAkN0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Ian Ballantyne, Developer Relations Engineer at Google DeepMind, demonstrates Gemma 4's multi-agent capabilities by spinning up 10 independent subagents on a single local machine. A high-level prompt goes to an orchestrator, which delegates the work, and within seconds the agents return a complete SVG art gallery, coded locally, simultaneously, and autonomously.
+
+What's covered: Running the Gemma 4 26B model locally, batch processing across 10 concurrent agents, orchestrator-and-subagent task delegation, inference speeds above 170 tokens per second, and what parallel local agents unlock for enterprise workflows and private on-prem deployments.
+
+What would you build with parallel local agents? Drop it in the comments.
+
+Resources: 
+Github →  https://goo.gle/4gzUwd9 
+Gemma Docs → https://goo.gle/3StWr9e 
+Gemma Cookbook → https://goo.gle/4vsfKhF 
+
+Subscribe to Google for Developers → https://goo.gle/developers  
+
+Speaker: Ian Ballantyne
+Products Mentioned:  Google AI, Gemini</media:description>
+   <media:community>
+    <media:starRating count="395" average="5.00" min="1" max="5"/>
+    <media:statistics views="14433"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:qnl8-PBJNu4</id>
+  <yt:videoId>qnl8-PBJNu4</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>What caused this React app to crash?</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/qnl8-PBJNu4"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-22T13:00:15+00:00</published>
+  <updated>2026-06-23T14:27:00+00:00</updated>
+  <media:group>
+   <media:title>What caused this React app to crash?</media:title>
+   <media:content url="https://www.youtube.com/v/qnl8-PBJNu4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qnl8-PBJNu4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A small CI pipeline puzzle from a very real build-system pattern.
+The app moves from React 18 to React 19. The next CI build runs faster than expected. Then production crashes.
+
+The clue is in the cache setup.
+
+Watch the clip and share the most likely cause in the comments.
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speakers: Christine Rafla</media:description>
+   <media:community>
+    <media:starRating count="169" average="5.00" min="1" max="5"/>
+    <media:statistics views="8506"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:O6499i4TFYA</id>
+  <yt:videoId>O6499i4TFYA</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>Gemma 4 and the AI Edge Gallery: On-Device AI Gets an Upgrade</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=O6499i4TFYA"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-18T23:00:05+00:00</published>
+  <updated>2026-06-21T22:10:06+00:00</updated>
+  <media:group>
+   <media:title>Gemma 4 and the AI Edge Gallery: On-Device AI Gets an Upgrade</media:title>
+   <media:content url="https://www.youtube.com/v/O6499i4TFYA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/O6499i4TFYA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Olivier Lacombe, Director of Product Management for Gemma, sits down with Gus Martins and Alice Zheng to dig into what Gemma 4 unlocks inside the Google AI Edge Gallery app.  Alice walks through the app's growth since launch, more than five million model downloads in the first month, and demos two of the most popular use cases: asking Gemma to explain why the sky is blue completely offline, and using audio input to generate a structured shopping list on the spot.  Gus covers the agent skills framework and what the community is building with it, from Wikipedia and WebFetch integrations to HTML rendering and mini games.  They also preview MCP integration coming to Android first and then iOS, persistent chat history, and what it means that the 2B model this year is matching the performance of last year's 27B dense.
+
+Resources: 
+Google AI Edge Gallery for Android → https://goo.gle/4vmF2Op 
+Google AI Edge Gallery for IOS → https://goo.gle/44jkpqk 
+Explore Gemma → https://goo.gle/44jktX6 
+
+The app is free, open source on GitHub, and available on the Play Store and App Store. 
+
+Subscribe to Google for Developers → https://goo.gle/developers  
+
+Speaker: Olivier Lacombe
+Products Mentioned:  Google AI, Gemma</media:description>
+   <media:community>
+    <media:starRating count="186" average="5.00" min="1" max="5"/>
+    <media:statistics views="5150"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:XkwQwBZ_Q8w</id>
+  <yt:videoId>XkwQwBZ_Q8w</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>Gemma Playground: AI Edge Gallery</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=XkwQwBZ_Q8w"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-18T19:20:15+00:00</published>
+  <updated>2026-06-23T23:29:38+00:00</updated>
+  <media:group>
+   <media:title>Gemma Playground: AI Edge Gallery</media:title>
+   <media:content url="https://www.youtube.com/v/XkwQwBZ_Q8w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/XkwQwBZ_Q8w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Ian Ballantyne, Developer Relations Engineer at Google DeepMind, shows what Gemma can do on a Pixel 10 Pro using the Google AI Edge Gallery app. Image understanding, audio transcription, agent skills that route prompts to the right app on your phone, all running locally with no connectivity required.
+
+What's covered: Using Agent Skills to route a voice prompt to a mood tracker app, taking a photo and outputting structured JSON Schema from it, generating suggestions from an image of plants, recording voice notes for transcription and translation, and identifying objects offline with multimodal image understanding.
+
+Download the Google AI Edge Gallery app on Android or iOS and try Gemma on your own device.
+
+What are you running on-device with Gemma? Drop it in the comments.
+
+Resources: 
+Google Play → https://goo.gle/3SXkrSe 
+App Store →  https://goo.gle/44oSgy7 
+Github → https://goo.gle/4xLOgW2 
+Gemma Docs → https://goo.gle/4uQXVYs 
+Gemma Cookbook → https://goo.gle/4oLWJEC 
+
+Subscribe to Google for Developers → https://goo.gle/developers  
+
+Speaker: Ian Ballantyne
+Products Mentioned:  Google AI, Gemini</media:description>
+   <media:community>
+    <media:starRating count="778" average="5.00" min="1" max="5"/>
+    <media:statistics views="25893"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bjd98N1-Hwc</id>
+  <yt:videoId>bjd98N1-Hwc</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>3 takeaways on Software Ecology™️</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/bjd98N1-Hwc"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-18T16:06:57+00:00</published>
+  <updated>2026-06-22T13:07:55+00:00</updated>
+  <media:group>
+   <media:title>3 takeaways on Software Ecology™️</media:title>
+   <media:content url="https://www.youtube.com/v/bjd98N1-Hwc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/bjd98N1-Hwc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What does easy, AI code generation mean for the future of our software systems? Let's find out. 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+#GoogleDeveloperNews
+
+Speaker: Adam Bender 
+Products Mentioned: Google AI</media:description>
+   <media:community>
+    <media:starRating count="160" average="5.00" min="1" max="5"/>
+    <media:statistics views="3789"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:afeOcSSI7tU</id>
+  <yt:videoId>afeOcSSI7tU</yt:videoId>
+  <yt:channelId>UC_x5XG1OV2P6uZZ5FSM9Ttw</yt:channelId>
+  <title>When you realize that you’re the senior dev now.</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/afeOcSSI7tU"/>
+  <author>
+   <name>Google for Developers</name>
+   <uri>https://www.youtube.com/channel/UC_x5XG1OV2P6uZZ5FSM9Ttw</uri>
+  </author>
+  <published>2026-06-18T04:00:31+00:00</published>
+  <updated>2026-06-19T18:38:26+00:00</updated>
+  <media:group>
+   <media:title>When you realize that you’re the senior dev now.</media:title>
+   <media:content url="https://www.youtube.com/v/afeOcSSI7tU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/afeOcSSI7tU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Sometimes greatness is bestowed upon us. 
+
+Subscribe to Google for Developers → https://goo.gle/developers 
+
+Speakers:  Pete King</media:description>
+   <media:community>
+    <media:starRating count="126" average="5.00" min="1" max="5"/>
+    <media:statistics views="8364"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
