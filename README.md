@@ -195,7 +195,7 @@ well-scoped next step — open an issue.
 
 ## Part of a pure-Mojo library suite
 
-Nine pure-Mojo libraries that mirror familiar Python stdlib and PyPI APIs,
+Ten pure-Mojo libraries that mirror familiar Python stdlib and PyPI APIs,
 filling gaps in the native Mojo ecosystem:
 
 - [mojo-captions](https://github.com/conorbronsdon/mojo-captions) — SRT and
@@ -214,6 +214,8 @@ filling gaps in the native Mojo ecosystem:
   reading and writing (Python's `tarfile`)
 - [mojo-redis](https://github.com/conorbronsdon/mojo-redis) — a Redis
   client (Python's `redis-py`)
+- [mojo-url](https://github.com/conorbronsdon/mojo-url) — URL parsing
+  and encoding (Python's `urllib.parse`)
 
 ## Contributing
 
