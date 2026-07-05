@@ -193,13 +193,27 @@ feeds at bulk-pipeline scale and want more, a zero-copy event API
 (events referencing source spans instead of owning strings) is the
 well-scoped next step — open an issue.
 
-## Part of the Mojo content-tooling suite
+## Part of a pure-Mojo library suite
 
-- [mojo-captions](https://github.com/conorbronsdon/mojo-captions): SRT and
-  WebVTT subtitle/transcript parsing.
-- [mojo-html](https://github.com/conorbronsdon/mojo-html): HTML parsing +
-  readability extraction.
-- mojo-markdown (coming soon).
+Nine pure-Mojo libraries that mirror familiar Python stdlib and PyPI APIs,
+filling gaps in the native Mojo ecosystem:
+
+- [mojo-captions](https://github.com/conorbronsdon/mojo-captions) — SRT and
+  WebVTT subtitle/transcript parsing (no Python stdlib parallel)
+- [mojo-html](https://github.com/conorbronsdon/mojo-html) — HTML parsing and
+  article extraction (Python's readability)
+- [mojo-markdown](https://github.com/conorbronsdon/mojo-markdown) —
+  CommonMark markdown parsing (Python's `markdown`)
+- [mojo-unicodedata](https://github.com/conorbronsdon/mojo-unicodedata) —
+  Unicode normalization and case folding (Python's `unicodedata`)
+- [mojo-diff](https://github.com/conorbronsdon/mojo-diff) — text diffing
+  (Python's `difflib`)
+- [mojo-template](https://github.com/conorbronsdon/mojo-template) — a
+  Jinja-flavored template engine (Python's `jinja2`)
+- [mojo-tar](https://github.com/conorbronsdon/mojo-tar) — tar archive
+  reading and writing (Python's `tarfile`)
+- [mojo-redis](https://github.com/conorbronsdon/mojo-redis) — a Redis
+  client (Python's `redis-py`)
 
 ## Contributing
 
