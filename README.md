@@ -207,6 +207,13 @@ infrastructure, and engineering. This library's integration fixture is that
 show's own RSS feed. Find me on [X](https://x.com/ConorBronsdon) or
 [LinkedIn](https://www.linkedin.com/in/conorbronsdon).
 
-Views and code are my own and not affiliated with my employer.
+
+---
+
+## Disclaimer
+
+*All views, opinions, and statements expressed on this account/in this repo are solely my own and are made in my personal capacity. They do not reflect, and should not be construed as reflecting, the views, positions, or policies of Modular. This account is not affiliated with, authorized by, or endorsed by my employer in any way.*
+
+## License
 
 Licensed under the [MIT License](LICENSE).
