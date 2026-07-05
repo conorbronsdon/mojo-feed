@@ -193,6 +193,14 @@ feeds at bulk-pipeline scale and want more, a zero-copy event API
 (events referencing source spans instead of owning strings) is the
 well-scoped next step — open an issue.
 
+## Part of the Mojo content-tooling suite
+
+- [mojo-captions](https://github.com/conorbronsdon/mojo-captions): SRT and
+  WebVTT subtitle/transcript parsing.
+- [mojo-html](https://github.com/conorbronsdon/mojo-html): HTML parsing +
+  readability extraction.
+- mojo-markdown (coming soon).
+
 ## Contributing
 
 Issues and PRs welcome — especially real-world feeds that parse wrong (attach
