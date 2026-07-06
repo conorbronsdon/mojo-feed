@@ -80,6 +80,16 @@ def test_out_of_range_codepoint_becomes_replacement() raises:
     assert_equal(events[1].text, "��")
 
 
+def test_forbidden_control_char_ref_becomes_replacement() raises:
+    # NUL and C0 controls are well-formed numeric refs but forbidden XML
+    # characters; they must decode to U+FFFD, never raw control bytes.
+    var events = _events("<t>a&#0;b&#7;c&#x1;d</t>")
+    assert_equal(events[1].text, "a�b�c�d")
+    # Tab/LF/CR remain legal control characters and pass through.
+    var ok = _events("<t>&#9;&#10;&#13;</t>")
+    assert_equal(ok[1].text, "\t\n\r")
+
+
 def test_entities_in_attributes() raises:
     var events = _events('<e title="a &amp; b"/>')
     assert_equal(events[0].attrs["title"], "a & b")
@@ -259,6 +269,11 @@ def test_strict_unknown_entity() raises:
 def test_strict_bare_ampersand() raises:
     with assert_raises(contains="bare '&'"):
         _strict_events("<a>fish & chips</a>")
+
+
+def test_strict_forbidden_char_ref() raises:
+    with assert_raises(contains="XML forbids"):
+        _strict_events("<a>&#0;</a>")
 
 
 def test_strict_error_reports_location() raises:

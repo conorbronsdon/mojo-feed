@@ -128,6 +128,60 @@ def test_stray_end_tag_ignored() raises:
     assert_equal(feed.items[0].title, "One")
 
 
+def test_missing_mid_item_close_recovers_both() raises:
+    # A dropped </item> between two items must not swallow the feed: the
+    # next <item> flushes the still-open one. feedparser recovers both.
+    var source: String = """<rss version="2.0"><channel><title>T</title>
+      <item><title>One</title><guid>g1</guid>
+      <item><title>Two</title><guid>g2</guid></item>
+    </channel></rss>"""
+    var feed = parse_feed(source^)
+    assert_equal(len(feed.items), 2)
+    assert_equal(feed.items[0].title, "One")
+    assert_equal(feed.items[0].guid, "g1")
+    assert_equal(feed.items[1].title, "Two")
+    assert_equal(feed.items[1].guid, "g2")
+
+
+def test_missing_last_item_close_recovers_via_ancestor() raises:
+    # The final </item> is dropped; the enclosing </channel> closes over
+    # it. The item must still be flushed rather than silently discarded.
+    var source: String = """<rss version="2.0"><channel><title>T</title>
+      <item><title>Only</title><guid>g9</guid>
+    </channel></rss>"""
+    var feed = parse_feed(source^)
+    assert_equal(len(feed.items), 1)
+    assert_equal(feed.items[0].title, "Only")
+    assert_equal(feed.items[0].guid, "g9")
+
+
+def test_missing_entry_close_recovers_atom() raises:
+    # Same recovery for Atom <entry>: a dropped </entry> before the next.
+    var source: String = """<feed xmlns="http://www.w3.org/2005/Atom">
+      <entry><title>A</title><id>a1</id>
+      <entry><title>B</title><id>b1</id></entry>
+    </feed>"""
+    var feed = parse_feed(source^)
+    assert_equal(len(feed.items), 2)
+    assert_equal(feed.items[0].title, "A")
+    assert_equal(feed.items[1].title, "B")
+
+
+def test_deep_unclosed_nesting_is_bounded() raises:
+    # Thousands of unclosed start tags plus stray end tags must not grow
+    # the name-stack without bound or make end-tag matching quadratic;
+    # parsing must complete and yield no bogus items.
+    var hostile = String('<rss version="2.0"><channel>')
+    for i in range(4000):  # well past _MAX_DEPTH (1024)
+        hostile += "<t" + String(i) + ">"
+    for _ in range(4000):
+        hostile += "</zzz>"
+    hostile += "</channel></rss>"
+    var feed = parse_feed(hostile^)
+    assert_equal(feed.kind, String(KIND_RSS))
+    assert_equal(len(feed.items), 0)
+
+
 def test_mixed_content_text_survives() raises:
     # Text before, inside, and after nested children must all be kept.
     var source: String = """<feed xmlns="http://www.w3.org/2005/Atom">
