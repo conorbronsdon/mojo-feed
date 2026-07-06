@@ -31,6 +31,26 @@ def _is_space(b: UInt8) -> Bool:
     return b == 0x20 or b == 0x09 or b == 0x0A or b == 0x0D
 
 
+def _is_valid_xml_char(cp: Int) -> Bool:
+    """XML 1.0 Char production: the scalars a document may contain.
+
+    Excludes NUL and the C0 control block (except tab, LF, CR),
+    surrogates, and out-of-range codepoints. A numeric character
+    reference to a forbidden scalar (e.g. `&#0;`) must not be emitted
+    verbatim — a raw NUL/control byte can truncate or corrupt whatever
+    consumes the decoded text.
+    """
+    if cp == 0x09 or cp == 0x0A or cp == 0x0D:
+        return True
+    if cp >= 0x20 and cp <= 0xD7FF:
+        return True
+    if cp >= 0xE000 and cp <= 0xFFFD:
+        return True
+    if cp >= 0x10000 and cp <= 0x10FFFF:
+        return True
+    return False
+
+
 def _append_codepoint(mut out: String, cp_in: Int):
     """UTF-8 encode a Unicode scalar value and append it to `out`.
 
@@ -492,6 +512,16 @@ struct XmlPullParser(Copyable, Movable):
                 out += String(StringSlice(unsafe_from_utf8=bytes[start:end]))
                 out += String(";")
                 return out^
+            if not _is_valid_xml_char(cp):
+                # Well-formed number, forbidden target (NUL, a C0 control,
+                # a surrogate, or out of range). Strict rejects it; liberal
+                # substitutes U+FFFD rather than emit a raw control byte.
+                if self.strict:
+                    raise self._strict_error(
+                        "character reference to a codepoint XML forbids",
+                        self.pos,
+                    )
+                cp = 0xFFFD
             _append_codepoint(out, cp)
             return out^
         var name = String(StringSlice(unsafe_from_utf8=bytes[start:end]))

@@ -37,6 +37,13 @@ from feed.xml_parser import (
     EVENT_EOF,
 )
 
+# Cap on the element-name stack. Real feeds nest only a handful deep; an
+# adversarial document with thousands of unclosed start tags would
+# otherwise grow the stack without bound (memory DoS) and make every
+# liberal end-tag reverse scan O(depth), i.e. O(n^2) over the document.
+# Bounding the stack bounds both. Chosen far above any legitimate feed.
+comptime _MAX_DEPTH = 1024
+
 
 def _canonical_ns_prefix(uri: String) -> String:
     """Canonical prefix for a known namespace URI, or "" if unknown."""
@@ -150,7 +157,11 @@ def parse_feed(var source: String, *, strict: Bool = False) raises -> Feed:
                 var canon = _canon_name(event.name, ns_map)
                 event.name = canon^
             ref name = event.name
-            stack.append(name.copy())
+            # Refuse to grow past the cap — see _MAX_DEPTH. Beyond it the
+            # document is pathological, not a feed, and we trade fidelity
+            # for a hard bound on memory and per-tag scan cost.
+            if len(stack) < _MAX_DEPTH:
+                stack.append(name.copy())
             var depth = len(stack)
             if depth == 1:
                 if name == "rss":
@@ -173,7 +184,13 @@ def parse_feed(var source: String, *, strict: Bool = False) raises -> Feed:
             # <summary>Hello <b>world</b> foo</summary> survives intact.
             if depth <= _field_depth(feed.kind, in_item, item_depth):
                 text = String()
-            if not in_item and (name == "item" or name == "entry"):
+            if name == "item" or name == "entry":
+                # A new item/entry opening while one is still open means
+                # the previous item's </item> was omitted. Flush it before
+                # starting the next so one missing end tag can't silently
+                # drop the whole feed (feedparser recovers both).
+                if in_item:
+                    feed.items.append(item^)
                 in_item = True
                 item_depth = depth
                 item = FeedItem()
@@ -251,10 +268,10 @@ def parse_feed(var source: String, *, strict: Bool = False) raises -> Feed:
 
             if in_item:
                 if name == "item" or name == "entry":
-                    if effective_depth == item_depth:
-                        feed.items.append(item^)
-                        item = FeedItem()
-                        in_item = False
+                    # Flushing is handled uniformly below, keyed on the
+                    # item element leaving the stack — so a missing </item>
+                    # closed by an ancestor flushes on the same path.
+                    pass
                 elif effective_depth == item_depth + 1:
                     _assign_item_field(
                         item,
@@ -296,6 +313,15 @@ def parse_feed(var source: String, *, strict: Bool = False) raises -> Feed:
                     _set_if_empty(feed.title, value)
                 elif name == "subtitle":
                     _set_if_empty(feed.description, value)
+
+            # Flush a still-open item whenever its start element leaves the
+            # stack: its own </item> (normal close) or an ancestor closing
+            # over an item whose </item> was omitted (liberal recovery).
+            if in_item and effective_depth <= item_depth:
+                feed.items.append(item^)
+                item = FeedItem()
+                in_item = False
+                pub_date_authoritative = False
 
             stack.shrink(idx)
             # Clear accumulation once a field-level element closes; a
