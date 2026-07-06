@@ -1,4 +1,4 @@
-"""mojo-feed: RSS, Atom, and JSON Feed parsing for Mojo."""
+"""RSS, Atom, and JSON Feed parsing for Mojo (mojo-feed)."""
 
 from feed.date import FeedDate, parse_date
 from feed.feed import parse_feed, parse_feed_bytes

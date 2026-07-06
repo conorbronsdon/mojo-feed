@@ -5,3 +5,6 @@ pixi.lock
 __pycache__/
 .bench_parse
 .corpus/
+docs/api.json
+docs/api.html
+docs/site/
