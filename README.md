@@ -13,11 +13,13 @@
 
 </div>
 
-As of mid-2026 the Mojo ecosystem has JSON, TOML, CSV, and YAML parsers — but
-nothing for XML, RSS, or Atom. mojo-feed fills the feed-shaped slice of that
+As of mid-2026 the Mojo ecosystem had JSON, TOML, CSV, and YAML parsers — but
+nothing for RSS, Atom, or XML. mojo-feed fills the feed-shaped slice of that
 gap: a minimal non-validating XML pull parser with RSS/Atom mapping and a
 JSON Feed parser on top. I built it to watch my own podcast's feed; it works
-on any feed a podcast host or blog emits.
+on any feed a podcast host or blog emits. (That same pull parser later grew
+into [mojo-xml](https://github.com/conorbronsdon/mojo-xml), a general-purpose
+`xml.etree.ElementTree`-shaped library.)
 
 ## What it handles
 
@@ -53,9 +55,10 @@ on any feed a podcast host or blog emits.
 ## What it deliberately does NOT do
 
 - **General XML validation.** `strict` mode checks feed well-formedness for
-  debugging, but DTD/schema validation and spec-conformance XML belong in a
-  future general `mojo-xml` package — a gap someone should claim (this
-  library's pull parser would be a reasonable seed for it).
+  debugging, but DTD/schema validation and full spec-conformance XML belong in
+  [mojo-xml](https://github.com/conorbronsdon/mojo-xml) — a general-purpose
+  `xml.etree.ElementTree`-shaped library that grew out of this library's pull
+  parser.
 - **Full lexically-scoped namespace resolution.** Prefix bindings are
   collected document-flat (feeds declare them on the root); a document that
   rebinds the same prefix to different URIs mid-stream resolves to the
@@ -195,9 +198,11 @@ well-scoped next step — open an issue.
 
 ## Part of a pure-Mojo library suite
 
-Ten pure-Mojo libraries that mirror familiar Python stdlib and PyPI APIs,
+Eleven pure-Mojo libraries that mirror familiar Python stdlib and PyPI APIs,
 filling gaps in the native Mojo ecosystem:
 
+- [mojo-xml](https://github.com/conorbronsdon/mojo-xml) — general-purpose XML
+  parsing, an ElementTree-shaped DOM (Python's `xml.etree.ElementTree`)
 - [mojo-captions](https://github.com/conorbronsdon/mojo-captions) — SRT and
   WebVTT subtitle/transcript parsing (no Python stdlib parallel)
 - [mojo-html](https://github.com/conorbronsdon/mojo-html) — HTML parsing and
