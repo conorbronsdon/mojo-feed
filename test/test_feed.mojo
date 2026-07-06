@@ -317,7 +317,9 @@ def test_json_feed() raises:
 
 
 def test_parse_feed_bytes() raises:
-    var doc: String = "<rss version='2.0'><channel><title>B</title><item><title>x</title></item></channel></rss>"
+    var doc: String = (
+        "<rss version='2.0'><channel><title>B</title><item><title>x</title></item></channel></rss>"
+    )
     var data = List[UInt8]()
     for b in doc.as_bytes():
         data.append(b)

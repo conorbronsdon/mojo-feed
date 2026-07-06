@@ -28,8 +28,6 @@ def fetch_feed(url: String) raises -> Feed:
         ):
             raise Error("mojo-feed: unsupported character in URL")
     var body = run(
-        "curl -fsSL --compressed --max-time 30 -A 'mojo-feed/0.1' '"
-        + url
-        + "'"
+        "curl -fsSL --compressed --max-time 30 -A 'mojo-feed/0.1' '" + url + "'"
     )
     return parse_feed(body^)

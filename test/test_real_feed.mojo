@@ -110,7 +110,9 @@ def test_slashdot_rdf_feed() raises:
 
 
 def test_real_json_feed() raises:
-    var feed = parse_feed(open("test/data/jsonfeed_recompiled.json", "r").read())
+    var feed = parse_feed(
+        open("test/data/jsonfeed_recompiled.json", "r").read()
+    )
     assert_equal(feed.kind, String(KIND_JSON))
     assert_equal(feed.title, "Recompiled")
     assert_true(len(feed.items) >= 5)
@@ -139,8 +141,8 @@ def test_dates_parse_across_all_fixtures() raises:
             if item.pub_date.byte_length() == 0:
                 continue
             var ts = item.date().unix_timestamp()
-            assert_true(ts > 946684800, msg=String(path))    # 2000-01-01
-            assert_true(ts < 2082758400, msg=String(path))   # 2036-01-01
+            assert_true(ts > 946684800, msg=String(path))  # 2000-01-01
+            assert_true(ts < 2082758400, msg=String(path))  # 2036-01-01
 
 
 def main() raises:

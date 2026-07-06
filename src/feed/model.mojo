@@ -80,6 +80,11 @@ struct Feed(Copyable, Movable, Writable):
 
     def write_to(self, mut writer: Some[Writer]):
         writer.write(
-            "Feed(", self.kind, ": ", self.title, ", ",
-            len(self.items), " items)",
+            "Feed(",
+            self.kind,
+            ": ",
+            self.title,
+            ", ",
+            len(self.items),
+            " items)",
         )

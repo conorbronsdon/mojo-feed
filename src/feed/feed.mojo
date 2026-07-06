@@ -103,7 +103,9 @@ def _collect_ns(attrs: Dict[String, String], mut ns_map: Dict[String, String]):
                 ns_map[declared] = canon^
 
 
-def parse_feed_bytes(data: Span[UInt8, _], *, strict: Bool = False) raises -> Feed:
+def parse_feed_bytes(
+    data: Span[UInt8, _], *, strict: Bool = False
+) raises -> Feed:
     """Parse raw feed bytes (any supported encoding) into a `Feed`."""
     return parse_feed(normalize_encoding_bytes(data), strict=strict)
 
@@ -118,8 +120,7 @@ def parse_feed(var source: String, *, strict: Bool = False) raises -> Feed:
     var head = source.as_bytes()
     var i = 0
     while i < len(head) and (
-        head[i] == 0x20 or head[i] == 0x09 or head[i] == 0x0A
-        or head[i] == 0x0D
+        head[i] == 0x20 or head[i] == 0x09 or head[i] == 0x0A or head[i] == 0x0D
     ):
         i += 1
     if i < len(head) and head[i] == UInt8(ord("{")):
@@ -256,7 +257,10 @@ def parse_feed(var source: String, *, strict: Bool = False) raises -> Feed:
                         in_item = False
                 elif effective_depth == item_depth + 1:
                     _assign_item_field(
-                        item, name, value, feed.kind,
+                        item,
+                        name,
+                        value,
+                        feed.kind,
                         pub_date_authoritative,
                     )
                 elif (

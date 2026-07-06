@@ -57,7 +57,9 @@ def test_rfc3339_date_only() raises:
 
 def test_epoch() raises:
     assert_equal(parse_date("1970-01-01T00:00:00Z").unix_timestamp(), 0)
-    assert_equal(parse_date("Thu, 01 Jan 1970 00:00:00 GMT").unix_timestamp(), 0)
+    assert_equal(
+        parse_date("Thu, 01 Jan 1970 00:00:00 GMT").unix_timestamp(), 0
+    )
 
 
 def test_writable_roundtrip() raises:

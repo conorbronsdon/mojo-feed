@@ -10,7 +10,7 @@ comptime _MONTHS: StaticString = "janfebmaraprmayjunjulaugsepoctnovdec"
 
 
 @fieldwise_init
-struct FeedDate(Copyable, Movable, Writable, Equatable):
+struct FeedDate(Copyable, Equatable, Movable, Writable):
     """A parsed feed timestamp.
 
     Civil fields are as written in the document (not UTC-normalized);

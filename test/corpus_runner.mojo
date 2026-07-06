@@ -1,6 +1,7 @@
 from std.sys import argv
 from feed import parse_feed
 
+
 def main():
     try:
         var f = parse_feed(open(String(argv()[1]), "r").read())
