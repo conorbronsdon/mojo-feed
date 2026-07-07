@@ -21,6 +21,18 @@ on any feed a podcast host or blog emits. (That same pull parser later grew
 into [mojo-xml](https://github.com/conorbronsdon/mojo-xml), a general-purpose
 `xml.etree.ElementTree`-shaped library.)
 
+### Coming from Python
+
+If you know Python's `feedparser`, the mapping is direct:
+
+| Python (`feedparser`)              | mojo-feed                       |
+| ---------------------------------- | ------------------------------- |
+| `d = feedparser.parse(text)`       | `var feed = parse_feed(text)`   |
+| `d = feedparser.parse(url)`        | `var feed = fetch_feed(url)`    |
+| `d.feed.title`                     | `feed.title`                    |
+| `d.entries`                        | `feed.items`                    |
+| `entry.title` / `entry.published`  | `item.title` / `item.pub_date`  |
+
 ## What it handles
 
 - Every syndication format in real use, auto-detected: RSS 0.91/0.92,
