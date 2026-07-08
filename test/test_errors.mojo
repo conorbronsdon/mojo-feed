@@ -198,6 +198,14 @@ def test_integration_unquoted_attribute_position() raises:
         _ = parser.next_event()
 
 
+def test_integration_unterminated_start_tag_position() raises:
+    # "<rss " ends after whitespace: the error points at the tag construct
+    # start (the opening <), not at end of input.
+    var parser = XmlPullParser("<rss ")
+    with assert_raises(contains="unterminated start tag at line 1, column 1"):
+        _ = parser.next_event()
+
+
 def test_integration_unterminated_attribute_value_position() raises:
     # '<rss version="2.0\n': the opening quote is at byte 13 — line 1,
     # column 14. The error points at the quote, not the end of input.
