@@ -6,6 +6,7 @@ materializes the JSON Feed fields the model carries; everything else is
 skipped structurally.
 """
 
+from feed.errors import parse_error
 from feed.model import Feed, FeedItem, KIND_JSON, _set_if_empty
 from feed.xml_parser import _append_codepoint
 
@@ -26,7 +27,14 @@ struct _Json(Movable):
         self.depth = 0
 
     def error(self, msg: String) -> Error:
-        return Error("mojo-feed: invalid JSON Feed: " + msg)
+        """A parse error positioned at the current cursor."""
+        return self.error_at(msg, self.pos)
+
+    def error_at(self, msg: String, p: Int) -> Error:
+        """A parse error positioned at byte `p` of the JSON source."""
+        return parse_error(
+            "mojo-feed: invalid JSON Feed: " + msg, Span(self.bytes), p
+        )
 
     def skip_ws(mut self):
         while self.pos < len(self.bytes):
@@ -67,10 +75,13 @@ struct _Json(Movable):
 
     def parse_string(mut self) raises -> String:
         self.expect('"')
+        # Position of the opening quote — unterminated strings point
+        # here, not at the useless end of input.
+        var quote_pos = self.pos - 1
         var out = String()
         while True:
             if self.pos >= len(self.bytes):
-                raise self.error("unterminated string")
+                raise self.error_at("unterminated string", quote_pos)
             var b = self.bytes[self.pos]
             if b == UInt8(ord('"')):
                 self.pos += 1
@@ -78,7 +89,8 @@ struct _Json(Movable):
             if b == UInt8(ord("\\")):
                 self.pos += 1
                 if self.pos >= len(self.bytes):
-                    raise self.error("truncated escape")
+                    # Point at the backslash that started the escape.
+                    raise self.error_at("truncated escape", self.pos - 1)
                 var e = self.bytes[self.pos]
                 self.pos += 1
                 if e == UInt8(ord('"')):
@@ -119,7 +131,8 @@ struct _Json(Movable):
                                 cp = low  # may itself be an unpaired low
                     _append_codepoint(out, cp)
                 else:
-                    raise self.error("unknown escape")
+                    # Point at the escape character itself.
+                    raise self.error_at("unknown escape", self.pos - 1)
                 continue
             # Raw byte (UTF-8 passes through untouched).
             var run_start = self.pos

@@ -6,6 +6,8 @@
 carrying the civil fields, the UTC offset, and a Unix timestamp.
 """
 
+from feed.errors import parse_error
+
 comptime _MONTHS: StaticString = "janfebmaraprmayjunjulaugsepoctnovdec"
 
 
@@ -134,7 +136,13 @@ struct _Cursor(Movable):
             self.pos += 1
             n += 1
         if n == 0:
-            raise Error("mojo-feed: expected digits in date")
+            # Positions are relative to the (whitespace-trimmed) date
+            # string being parsed, not the enclosing feed document.
+            raise parse_error(
+                "mojo-feed: expected digits in date",
+                Span(self.bytes),
+                self.pos,
+            )
         return v
 
     def read_alpha_lower(mut self) -> String:
@@ -250,11 +258,11 @@ def _parse_rfc822(var cur: _Cursor) raises -> FeedDate:
 def _parse_rfc3339(var cur: _Cursor) raises -> FeedDate:
     var year = cur.read_int(4)
     if cur.peek() != UInt8(ord("-")):
-        raise Error("mojo-feed: bad ISO date")
+        raise parse_error("mojo-feed: bad ISO date", Span(cur.bytes), cur.pos)
     cur.pos += 1
     var month = cur.read_int(2)
     if cur.peek() != UInt8(ord("-")):
-        raise Error("mojo-feed: bad ISO date")
+        raise parse_error("mojo-feed: bad ISO date", Span(cur.bytes), cur.pos)
     cur.pos += 1
     var day = cur.read_int(2)
     var hour = 0

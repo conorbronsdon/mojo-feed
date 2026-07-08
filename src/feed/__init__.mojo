@@ -1,6 +1,7 @@
 """RSS, Atom, and JSON Feed parsing for Mojo (mojo-feed)."""
 
 from feed.date import FeedDate, parse_date
+from feed.errors import line_col, parse_error
 from feed.feed import parse_feed, parse_feed_bytes
 from feed.fetch import fetch_feed
 from feed.jsonfeed import parse_json_feed

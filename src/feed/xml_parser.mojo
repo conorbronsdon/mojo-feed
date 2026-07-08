@@ -7,6 +7,8 @@ are not resolved (prefixes stay part of the element name, e.g.
 plus numeric character references are decoded in text and attributes.
 """
 
+from feed.errors import parse_error
+
 comptime EVENT_START = 0
 comptime EVENT_END = 1
 comptime EVENT_TEXT = 2
@@ -344,9 +346,14 @@ struct XmlPullParser(Copyable, Movable):
 
     With `strict=True` the parser validates well-formedness as it goes —
     mismatched or stray end tags, elements left open at EOF, and
-    malformed or unknown entities raise with a line/column location
-    instead of being liberally recovered. Useful for debugging a feed
-    you produce; leave it off for feeds you merely consume.
+    malformed or unknown entities raise instead of being liberally
+    recovered. Useful for debugging a feed you produce; leave it off for
+    feeds you merely consume.
+
+    Errors — strict-mode and the structural ones both modes raise —
+    carry a `line L, column C` location plus a snippet of the offending
+    line (see `feed.errors.parse_error`). Offsets are relative to the
+    encoding-normalized buffer the parser scans.
     """
 
     var src: String
@@ -364,30 +371,16 @@ struct XmlPullParser(Copyable, Movable):
         self._has_pending_end = False
         self._open = List[String]()
 
-    def _location(self, p: Int) -> String:
-        """Human-readable "line L, column C" for byte offset `p`.
-
-        Computed lazily (only on error paths), so the happy path pays
-        nothing for location tracking.
-        """
-        var bytes = self.src.as_bytes()
-        var line = 1
-        var col = 1
-        var limit = p
-        if limit > len(bytes):
-            limit = len(bytes)
-        for i in range(limit):
-            if bytes[i] == 0x0A:
-                line += 1
-                col = 1
-            else:
-                col += 1
-        return String("line ") + String(line) + ", column " + String(col)
-
     def _strict_error(self, msg: String, p: Int) -> Error:
-        return Error(
-            "mojo-feed [strict]: " + msg + " (" + self._location(p) + ")"
-        )
+        # Position + snippet are computed lazily (only on error paths),
+        # so the happy path pays nothing for location tracking. Offsets
+        # are relative to the normalized (post `normalize_encoding`)
+        # buffer, which is what the parser actually scans.
+        return parse_error("mojo-feed [strict]: " + msg, self.src.as_bytes(), p)
+
+    def _error(self, msg: String, p: Int) -> Error:
+        """A positioned parse error (both strict and liberal mode)."""
+        return parse_error("mojo-feed: " + msg, self.src.as_bytes(), p)
 
     def _len(self) -> Int:
         return self.src.byte_length()
@@ -410,15 +403,20 @@ struct XmlPullParser(Copyable, Movable):
         return True
 
     def _find(self, start: Int, literal: StaticString) raises -> Int:
-        """Byte offset of `literal` at or after `start`, or raises."""
+        """Byte offset of `literal` at or after `start`, or raises.
+
+        The error position is `start` — the beginning of the search,
+        i.e. just inside the construct that was never terminated —
+        rather than the uninformative end of input.
+        """
         var i = start
         while i < self._len():
             if self._starts_with(i, literal):
                 return i
             i += 1
-        raise Error(
-            String("mojo-feed: unterminated construct, expected: ")
-            + String(literal)
+        raise self._error(
+            String("unterminated construct, expected: ") + String(literal),
+            start,
         )
 
     def _skip_space(mut self):
@@ -554,26 +552,30 @@ struct XmlPullParser(Copyable, Movable):
         while True:
             self._skip_space()
             if self.pos >= self._len():
-                raise Error("mojo-feed: unterminated start tag")
+                raise self._error("unterminated start tag", self.pos)
             var b = self._at(self.pos)
             if b == _GT or b == _SLASH:
                 return attrs^
+            var name_pos = self.pos
             var name = self._read_name()
             self._skip_space()
             if self.pos < self._len() and self._at(self.pos) == _EQUALS:
                 self.pos += 1
                 self._skip_space()
                 if self.pos >= self._len():
-                    raise Error("mojo-feed: unterminated attribute")
+                    raise self._error("unterminated attribute", name_pos)
                 var quote = self._at(self.pos)
                 if quote != _SQUOTE and quote != _DQUOTE:
-                    raise Error("mojo-feed: unquoted attribute value")
+                    raise self._error("unquoted attribute value", self.pos)
                 self.pos += 1
                 var vstart = self.pos
                 while self.pos < self._len() and self._at(self.pos) != quote:
                     self.pos += 1
                 if self.pos >= self._len():
-                    raise Error("mojo-feed: unterminated attribute value")
+                    # Point at the opening quote that was never closed.
+                    raise self._error(
+                        "unterminated attribute value", vstart - 1
+                    )
                 var raw = self._slice_to_string(vstart, self.pos)
                 self.pos += 1  # closing quote
                 attrs[name] = self._decode_entities(raw)
@@ -642,7 +644,7 @@ struct XmlPullParser(Copyable, Movable):
                 var name = self._read_name()
                 self._skip_space()
                 if self.pos >= self._len() or self._at(self.pos) != _GT:
-                    raise Error("mojo-feed: malformed end tag: " + name)
+                    raise self._error("malformed end tag: " + name, tag_start)
                 self.pos += 1
                 if self.strict:
                     if len(self._open) == 0:
@@ -663,9 +665,10 @@ struct XmlPullParser(Copyable, Movable):
                 return XmlEvent.end(name^)
             # Start tag.
             self.pos += 1
+            var name_pos = self.pos
             var name = self._read_name()
             if name.byte_length() == 0:
-                raise Error("mojo-feed: empty element name")
+                raise self._error("empty element name", name_pos)
             var attrs = self._read_attrs()
             var self_closing = False
             if self._at(self.pos) == _SLASH:
@@ -673,7 +676,7 @@ struct XmlPullParser(Copyable, Movable):
                 self.pos += 1
                 self._skip_space()
             if self.pos >= self._len() or self._at(self.pos) != _GT:
-                raise Error("mojo-feed: malformed start tag: " + name)
+                raise self._error("malformed start tag: " + name, name_pos)
             self.pos += 1
             if self_closing:
                 self._pending_end = name.copy()
