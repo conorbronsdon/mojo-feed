@@ -64,7 +64,7 @@ def test_epoch() raises:
 
 def test_writable_roundtrip() raises:
     var d = parse_date("2026-07-03T01:02:03-07:00")
-    assert_equal(String.write(d), "2026-07-03T01:02:03-07:00")
+    assert_equal(String(d), "2026-07-03T01:02:03-07:00")
 
 
 def test_item_date_method() raises:
