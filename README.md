@@ -6,7 +6,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
 [![Mojo](https://img.shields.io/badge/Mojo-1.0.0b3%2B_nightly-orange?style=flat-square)](https://mojolang.org)
-[![Podcast](https://img.shields.io/badge/Podcast-Chain_of_Thought-purple?style=flat-square)](https://chainofthought.show)
+[![Podcast](https://img.shields.io/badge/Podcast-Chain_of_Thought-purple?style=flat-square)](https://chainofthought.show/?utm_source=github&utm_medium=referral&utm_campaign=repo-readme&utm_content=mojo-feed)
 [![X](https://img.shields.io/badge/X-@ConorBronsdon-black?style=flat-square&logo=x)](https://x.com/ConorBronsdon)
 
 <img src="docs/demo.gif" alt="Demo: pixi run demo parses the Chain of Thought podcast feed — a 547 KB Transistor RSS file with 66 episodes — and lists the latest five, in about 4 ms" width="800">
@@ -242,8 +242,8 @@ sending a PR.
 
 ## About
 
-Built by [Conor Bronsdon](https://conorbronsdon.com) — host of
-[Chain of Thought](https://chainofthought.show), a podcast about AI agents,
+Built by [Conor Bronsdon](https://conorbronsdon.com/?utm_source=github&utm_medium=referral&utm_campaign=repo-readme&utm_content=mojo-feed) — host of
+[Chain of Thought](https://chainofthought.show/?utm_source=github&utm_medium=referral&utm_campaign=repo-readme&utm_content=mojo-feed), a podcast about AI agents,
 infrastructure, and engineering. This library's integration fixture is that
 show's own RSS feed. Find me on [X](https://x.com/ConorBronsdon) or
 [LinkedIn](https://www.linkedin.com/in/conorbronsdon).
