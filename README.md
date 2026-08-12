@@ -5,7 +5,7 @@
 **RSS, Atom, and JSON Feed parsing in pure Mojo. No Python dependencies, no FFI.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
-[![Mojo](https://img.shields.io/badge/Mojo-1.0.0b3%2B_nightly-orange?style=flat-square)](https://mojolang.org)
+[![Mojo](https://img.shields.io/badge/Mojo-1.0-orange?style=flat-square)](https://mojolang.org)
 [![Podcast](https://img.shields.io/badge/Podcast-Chain_of_Thought-purple?style=flat-square)](https://chainofthought.show/?utm_source=github&utm_medium=referral&utm_campaign=repo-readme&utm_content=mojo-feed)
 [![X](https://img.shields.io/badge/X-@ConorBronsdon-black?style=flat-square&logo=x)](https://x.com/ConorBronsdon)
 
@@ -92,11 +92,11 @@ Or with uv:
 
 ```bash
 uv venv
-uv pip install mojo --index https://whl.modular.com/nightly/simple/ --prerelease allow
+uv pip install mojo
 .venv/bin/mojo run -I src test/test_feed.mojo
 ```
 
-Requires a Mojo nightly (`>=1.0.0b3`).
+Requires Mojo 1.0 or newer.
 
 ## Usage
 
@@ -179,10 +179,10 @@ pixi run test
 pixi run bench
 ```
 
-70 tests across four files: the XML tokenizer (30, including encodings
-and strict mode), the mapping layer + JSON Feed (19), date parsing (11),
-and integration
-passes (10) against eight real feed snapshots — a 547 KB Transistor
+102 tests across five files: the XML tokenizer (32, including encodings
+and strict mode), the mapping layer + JSON Feed (23), date parsing (11),
+parse-error positions (26), and integration passes (10) against eight
+real feed snapshots — a 547 KB Transistor
 podcast feed (66 episodes, itunes namespaces, CDATA, stylesheet PI), an
 811 KB Substack feed, Hacker News front-page RSS, the xkcd Atom feed, a
 YouTube channel feed (Media RSS), a WordPress feed, Slashdot's RSS 1.0
@@ -191,9 +191,11 @@ test round-trips every date in every fixture through `parse_date` and
 sanity-checks the timestamps.
 
 Robustness is validated two ways. A 144-feed public OPML corpus
-(`test/corpus_run.py`): **all 138 fetchable feeds parse fully** — the
-three flagged for empty titles turned out to have literal
-`<title></title>` in their source. And fuzzing (`test/fuzz_drive.py`):
+(`test/corpus_run.py`): of the 137 URLs that still fetched on the last
+run, **not one raised, crashed, or hung**. Three are flagged for empty
+titles — all three have a literal `<title></title>` in their source —
+and one flagged for zero items served a 504 error page instead of a
+feed. (The corpus is live, so the fetchable count drifts.) And fuzzing (`test/fuzz_drive.py`):
 5,400+ mutated documents (byte flips, truncations, chunk splices,
 hostile tokens, XML and JSON seeds) with zero crashes and zero hangs —
 malformed input either parses liberally or raises a clean error. Hostile
@@ -201,7 +203,7 @@ inputs are bounded: JSON nesting is depth-capped, out-of-range
 codepoints become U+FFFD, and `fetch_feed` rejects URLs that could
 escape shell quoting.
 
-Compiled throughput on the real fixtures: 131–146 MB/s (~4.0 ms for the
+Compiled throughput on the real fixtures: 113–135 MB/s (~4.1 ms for the
 547 KB feed; run `pixi run bench` to reproduce on your machine). Parse
 time is dwarfed by fetch time in any real workload; if you're parsing
 feeds at bulk-pipeline scale and want more, a zero-copy event API

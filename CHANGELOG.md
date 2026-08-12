@@ -1,6 +1,19 @@
 # Changelog
 
-## Unreleased
+## 0.2.0 — 2026-08-11
+
+- **Builds on released Mojo 1.0.** The pixi channel moved from
+  `max-nightly` to `max` and the dependency pin from `>=1.0.0b3.dev…` to
+  `>=1.0,<2`; CI installs `mojo==1.0.0` from PyPI instead of the nightly
+  index with `--prerelease allow`. The weekly drift check still runs
+  against the latest nightly, so the repo still reports when the language
+  moves under it. No source changes were needed.
+- README figures re-measured on 1.0: 70 → 102 tests (the errors module
+  added a fifth test file), 5,400 fuzz mutations with zero crashes and
+  zero hangs, and a live corpus run where all 137 feeds that fetched
+  parsed without a raise, crash, or hang. The throughput range is
+  restated for the machine it was re-measured on — b3 and 1.0 benchmark
+  the same there, so the move is the machine, not the compiler.
 
 - New `feed.errors` module (exported from the package): `line_col(source,
   offset)` maps a byte offset to a 1-based (line, column) pair — the column
